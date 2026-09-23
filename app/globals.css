@@ -379,3 +379,10 @@ object-position:center top!important;
 transform:scale(1.12)!important;
 transform-origin:center top!important;
 }
+
+/* Surprising-result portrait — shift image upward to reveal the full face */
+.vh-surprise .vh-surprise-photo img{
+object-position:center center!important;
+transform:translateY(-14%) scale(1.04)!important;
+transform-origin:center center!important;
+}
