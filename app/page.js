@@ -42,7 +42,7 @@ export default function Home(){return <main>
 </div>
 <div className="research-editorial-visual">
 <figure className="research-editorial-photo">
-<img src="https://images.wondershare.cn/virbo/images2023/article/20230728-26.png" alt="Realistic digital human avatar used as editorial context for research into virtual humans"/>
+<img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1600&q=90" alt="Person immersed in digital technology, used as editorial context for research into virtual humans"/>
 <figcaption>VIRTUAL HUMANS / CONSUMER PERCEPTION</figcaption>
 </figure>
 <div className="research-editorial-stat"><small>PUBLISHED / 2025</small><strong>258</strong><span>Gen Z respondents</span><i>PLS-SEM</i></div>
