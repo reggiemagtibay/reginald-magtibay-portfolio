@@ -308,3 +308,18 @@ max-width:220px!important;
 .vh-ethnicity strong{display:block!important;font-family:Georgia,serif!important;font-size:22px!important;font-weight:400!important;letter-spacing:0!important}
 .vh-ethnicity span{display:block!important;font-size:10px!important;margin-top:5px!important;opacity:.72!important}
 @media(max-width:900px){.vh-network{grid-template-columns:1fr!important;gap:34px!important;padding:42px 0!important}.vh-inputs span,.vh-inputs span:nth-child(n){width:100%!important;margin-left:0!important}.vh-flow-main{grid-template-columns:1fr!important;transform:none!important}.vh-flow-main .vh-node{transform:none!important}.vh-flow-main .vh-arrow{transform:rotate(90deg)!important}.vh-ethnicity{position:static!important;width:auto!important;margin-top:8px!important}}
+
+/* Conceptual model hotfix — stable desktop grid */
+@media(min-width:901px){
+.vh-network{display:grid!important;grid-template-columns:30% 1fr!important;column-gap:7%!important;align-items:center!important;padding:58px 0 88px!important}
+.vh-inputs{width:100%!important}
+.vh-inputs span,.vh-inputs span:nth-child(n){width:100%!important;margin:0!important;box-sizing:border-box!important}
+.vh-flow-main{display:grid!important;grid-template-columns:minmax(150px,1fr) 46px minmax(170px,1.05fr) 46px minmax(190px,1.15fr)!important;gap:14px!important;align-items:center!important;width:100%!important;min-width:0!important;transform:none!important}
+.vh-flow-main .vh-node{width:100%!important;min-width:0!important;min-height:74px!important;box-sizing:border-box!important;display:flex!important;align-items:center!important;justify-content:center!important;padding:16px 18px!important;white-space:normal!important}
+.vh-flow-main .trust{transform:translateY(-24px)!important}
+.vh-flow-main .attitude{transform:translateY(16px)!important}
+.vh-flow-main .final{transform:translateY(-6px)!important}
+.vh-flow-main .vh-arrow{width:46px!important;font-size:25px!important;transform:none!important}
+.vh-ethnicity{right:2%!important;bottom:14px!important;width:260px!important;box-sizing:border-box!important;padding:6px 0 6px 20px!important;text-align:left!important}
+.vh-ethnicity small,.vh-ethnicity strong,.vh-ethnicity span{display:block!important}
+}
