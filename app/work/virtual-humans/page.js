@@ -1,0 +1,29 @@
+"use client";
+import {motion} from "framer-motion";
+export default function VirtualHumans(){return <main>
+<header className="nav"><a className="brand" href="/">REGGIE.</a><nav><a href="/#work">WORK</a><a href="/#about">ABOUT</a><a href="/#contact">CONTACT</a></nav></header>
+
+<section className="vh-hero">
+<div className="vh-hero-copy"><a className="back" href="/">← BACK TO WORK</a><p className="section-label">04 / RESEARCH</p><h1>Anthropomorphism<br/>and diversity in<br/>virtual humans</h1><p className="case-lead">How human-like qualities, social presence and information shape Gen Z consumers’ trust, attitudes and purchase intentions.</p><div className="vh-meta"><span>TYPE<b>Published research</b></span><span>SAMPLE<b>258 respondents</b></span><span>METHOD<b>PLS-SEM</b></span></div></div>
+<div className="vh-hero-art"><div className="vh-face"><span>VIRTUAL<br/>HUMAN</span><div className="vh-eye e1"></div><div className="vh-eye e2"></div><div className="vh-axis"></div></div><div className="vh-journal"><small>PUBLISHED / 2025</small><p>Corporate Communications:<br/><i>An International Journal</i></p><b>DOI<br/>10.1108/CCIJ-04-2024-0072</b></div></div>
+</section>
+
+<section className="vh-context"><p className="section-label">THE RESEARCH</p><div><h2>When a digital persona looks human, what actually makes people trust it?</h2><p>Virtual humans are increasingly used in marketing, retail and customer interactions. The study examined whether anthropomorphism, social presence, information quality and ethnicity shape how British Gen Z consumers respond to autonomous virtual humans.</p><p>The research was conducted with Nadia Lonsdale and Gokhan Aydin and published in <i>Corporate Communications: An International Journal</i>.</p></div></section>
+
+<section className="vh-model"><div className="vh-model-head"><p className="section-label">THE CONCEPTUAL MODEL</p><h2>From human-like cues<br/>to consumer response.</h2></div><div className="vh-network">
+<div className="vh-inputs"><span>ANTHROPOMORPHISM</span><span>SOCIAL PRESENCE</span><span>INFORMATION QUALITY</span></div>
+<div className="vh-arrow">→</div><div className="vh-node">TRUST</div><div className="vh-arrow">→</div><div className="vh-node">ATTITUDE</div><div className="vh-arrow">→</div><div className="vh-node final">PURCHASE<br/>INTENTION</div>
+<div className="vh-ethnicity">ETHNICITY<br/><small>tested as moderator</small></div></div></section>
+
+<section className="vh-method"><div><p className="section-label">METHOD</p><strong>258</strong><h2>Gen Z respondents retained for analysis.</h2></div><div className="vh-method-copy"><p>Participants were recruited online and completed a Qualtrics survey using a seven-point Likert scale. They were introduced to virtual humans in a retail context and shown a scenario involving a virtual human named Nova.</p><p>Data were analysed in SmartPLS. The model assessed anthropomorphism, social presence, information quality, trust, attitudes, purchase intentions and ethnicity.</p><div className="vh-method-tags"><span>ONLINE SURVEY</span><span>7-POINT LIKERT</span><span>SMARTPLS</span><span>PLS-SEM</span></div></div></section>
+
+<section className="vh-results"><div className="vh-results-head"><p className="section-label">WHAT THE STUDY FOUND</p><h2>Being more human-like was not the whole story.</h2></div><div className="vh-result-grid">
+<motion.article initial={{opacity:0,y:18}} whileInView={{opacity:1,y:0}} viewport={{once:true}}><small>01 / INFORMATION</small><strong>0.514</strong><h3>Information quality had the strongest influence on trust.</h3><p>The quality of information provided by the virtual human was a significant positive predictor of trust.</p></motion.article>
+<motion.article initial={{opacity:0,y:18}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{delay:.08}}><small>02 / SOCIAL PRESENCE</small><strong>0.378</strong><h3>Social presence positively influenced attitudes.</h3><p>Feeling a stronger social presence was associated with more positive attitudes towards virtual humans.</p></motion.article>
+<motion.article initial={{opacity:0,y:18}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{delay:.16}}><small>03 / ATTITUDE</small><strong>0.541</strong><h3>Attitude was the main driver of purchase intention.</h3><p>Positive attitudes showed the strongest direct path to consumers’ purchase intentions.</p></motion.article>
+</div></section>
+
+<section className="vh-surprise"><div className="vh-scan"><div className="scan-head"></div><div className="scan-eye left"></div><div className="scan-eye right"></div><span>ANTHROPOMORPHISM ≠ AUTOMATIC TRUST</span></div><div><p className="section-label">THE SURPRISING RESULT</p><h2>Looking more human did not significantly increase trust or attitudes.</h2><p>Anthropomorphism did not have a significant direct effect on trust or attitudes in the tested model. Ethnicity also did not significantly moderate the relationships with purchase intention.</p><p>That shifts the emphasis away from appearance alone and towards the quality and social character of the interaction.</p></div></section>
+
+<section className="vh-close"><p className="section-label">THE TAKEAWAY</p><h2>For virtual humans, how they communicate may matter more than how human they look.</h2><div><p>The findings suggest that brands and designers should look beyond visual realism. Information quality, social presence and the trust and attitudes they help create were more consequential in this study than anthropomorphism alone.</p><a href="/">← BACK TO SELECTED WORK</a></div></section>
+</main>}
