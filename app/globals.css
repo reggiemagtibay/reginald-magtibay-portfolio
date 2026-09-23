@@ -208,3 +208,12 @@
 .vh-close a{font-size:11px!important;letter-spacing:.1em!important}
 .vh-editorial-hero figure img,.vh-context-image img,.vh-surprise-photo img{filter:saturate(.58) contrast(1.03)!important}
 @media(max-width:900px){.vh-network{grid-template-columns:1fr!important;gap:10px!important}.vh-arrow{transform:rotate(90deg)!important}.vh-ethnicity{position:static!important;text-align:left!important;margin-top:14px!important}.vh-model-head{grid-template-columns:1fr!important}.vh-hero .case-lead{font-size:16px!important}}
+
+/* Research homepage card — spacing/readability correction */
+.research-editorial-stat{padding:38px 40px 34px!important;box-sizing:border-box!important}
+.research-editorial-stat strong{font-size:clamp(78px,6.5vw,106px)!important;line-height:.88!important;margin:74px 0 14px!important;align-self:flex-start!important}
+.research-editorial-stat span{font-size:15px!important;line-height:1.25!important}
+.research-editorial-stat i{font-size:12px!important;letter-spacing:.12em!important;padding-top:20px!important;margin-top:auto!important;width:100%!important}
+.research-editorial-stat small{font-size:10px!important;letter-spacing:.14em!important}
+.research-editorial-photo figcaption{display:none!important}
+@media(max-width:900px){.research-editorial-stat{padding:26px!important}.research-editorial-stat strong{margin-top:48px!important}.research-editorial-stat i{font-size:11px!important}}
