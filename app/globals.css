@@ -188,3 +188,23 @@
 .vh-context-image figcaption{position:absolute;left:18px;bottom:16px;color:#fff;background:rgba(20,20,18,.72);padding:8px 10px;font-size:8px;letter-spacing:.14em}
 .vh-surprise-photo img{filter:saturate(.72) contrast(1.06)!important}
 @media(max-width:900px){.research-editorial{grid-template-columns:1fr!important}.research-editorial-visual{min-height:600px}.research-editorial-photo{width:86%;height:500px}.research-editorial-stat{width:38%;top:170px}.research-editorial-question{width:66%}.vh-editorial-context{grid-template-columns:1fr!important}.vh-context-image{height:390px;margin-top:30px}}
+
+/* Virtual Humans case study — readability + conceptual model correction */
+.vh-hero .back{font-size:11px!important;letter-spacing:.11em!important}
+.vh-hero .section-label,.vh-context .section-label,.vh-model .section-label,.vh-method .section-label,.vh-results .section-label,.vh-surprise .section-label,.vh-close .section-label{font-size:11px!important;letter-spacing:.14em!important;font-weight:700!important}
+.vh-hero .case-lead{font-size:17px!important;line-height:1.5!important;max-width:610px!important}
+.vh-meta span{font-size:10px!important;letter-spacing:.11em!important}.vh-meta b{font-size:12px!important;margin-top:8px!important}
+.vh-journal small,.vh-journal b{font-size:10px!important;line-height:1.45!important}.vh-journal p{font-size:21px!important;line-height:1.05!important}
+.vh-editorial-context>div>p:not(.section-label){font-size:17px!important;line-height:1.62!important;max-width:680px!important}
+.vh-context-image figcaption,.vh-surprise-photo figcaption{font-size:10px!important;line-height:1.35!important}
+.vh-model{padding:9vh 4vw!important}.vh-model-head{grid-template-columns:.42fr 1.58fr!important;align-items:start!important}.vh-model h2{font-size:clamp(50px,5vw,80px)!important;line-height:.94!important;max-width:760px!important}
+.vh-network{display:grid!important;grid-template-columns:minmax(210px,1.15fr) 45px minmax(125px,.7fr) 45px minmax(145px,.8fr) 45px minmax(165px,.9fr)!important;gap:16px!important;align-items:center!important;padding:48px 0 26px!important;border-top:1px solid #393a35!important;border-bottom:1px solid #393a35!important;margin-top:42px!important;position:relative!important;overflow:visible!important}
+.vh-inputs{display:grid!important;gap:10px!important}.vh-inputs span,.vh-node{min-height:54px!important;padding:12px 15px!important;display:flex!important;align-items:center!important;justify-content:center!important;border:1px solid #666760!important;font-size:12px!important;line-height:1.2!important;letter-spacing:.07em!important;text-align:center!important}.vh-node.final{background:#f0ece3!important;color:#171713!important;border-color:#f0ece3!important}
+.vh-arrow{font-size:24px!important;text-align:center!important}.vh-ethnicity{position:absolute!important;right:0!important;bottom:-58px!important;font-size:11px!important;letter-spacing:.1em!important;text-align:right!important}.vh-ethnicity small{font-size:10px!important;letter-spacing:.04em!important}
+.vh-method-copy p,.vh-result-grid p,.vh-surprise>div:last-child p:not(.section-label),.vh-close p:not(.section-label){font-size:16px!important;line-height:1.62!important}
+.vh-method h2{font-size:32px!important;line-height:1.08!important}.vh-method-tags span{font-size:10px!important;padding:9px 11px!important}
+.vh-result-grid small{font-size:10px!important;letter-spacing:.1em!important}.vh-result-grid strong{font-size:64px!important}.vh-result-grid h3{font-size:19px!important;line-height:1.25!important}
+.vh-surprise h2{font-size:clamp(42px,4vw,66px)!important;line-height:.96!important}
+.vh-close a{font-size:11px!important;letter-spacing:.1em!important}
+.vh-editorial-hero figure img,.vh-context-image img,.vh-surprise-photo img{filter:saturate(.58) contrast(1.03)!important}
+@media(max-width:900px){.vh-network{grid-template-columns:1fr!important;gap:10px!important}.vh-arrow{transform:rotate(90deg)!important}.vh-ethnicity{position:static!important;text-align:left!important;margin-top:14px!important}.vh-model-head{grid-template-columns:1fr!important}.vh-hero .case-lead{font-size:16px!important}}
