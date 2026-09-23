@@ -235,3 +235,14 @@
 .research-editorial-stat span{font-size:15px!important;line-height:1.18!important;white-space:normal!important}
 .research-editorial-stat i{font-size:14px!important;padding-top:16px!important}
 }
+
+/* Virtual Humans hero — publication card spacing + distinct image crop */
+@media(min-width:901px){
+.vh-editorial-hero{height:650px!important}
+.vh-editorial-hero figure{inset:0 14% 0 0!important}
+.vh-editorial-hero figure img{object-fit:cover!important;object-position:center center!important}
+.vh-editorial-hero .vh-journal{right:0!important;bottom:72px!important;width:43%!important;min-height:365px!important;padding:36px 34px!important;box-sizing:border-box!important;display:flex!important;flex-direction:column!important}
+.vh-editorial-hero .vh-journal small{font-size:11px!important;line-height:1.25!important;letter-spacing:.13em!important}
+.vh-editorial-hero .vh-journal p{font-size:22px!important;line-height:1.03!important;margin:58px 0 0!important;max-width:100%!important}
+.vh-editorial-hero .vh-journal b{font-size:11px!important;line-height:1.55!important;letter-spacing:.04em!important;margin-top:auto!important;overflow-wrap:anywhere!important}
+}
