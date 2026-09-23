@@ -41,7 +41,7 @@ export default function Home(){return <main>
 <a className="case-link" href="/work/virtual-humans">VIEW PUBLISHED RESEARCH <b>↗</b></a>
 </div>
 <div className="research-visual">
-<div className="research-portrait-pair">
+<div className="research-portrait-pair research-reference-art">
 <figure className="research-photo"><img src="/images/virtual-human-portrait.webp" alt="Editorial CGI portrait representing a virtual human"/><div className="research-photo-note">PEOPLE<br/>TECHNOLOGY<br/>TRUST<br/>BRANDS</div><figcaption>VIRTUAL HUMANS / CONSUMER PERCEPTION</figcaption></figure>
 <figure className="research-paper"><div><small>PUBLISHED / 2025</small><strong>258</strong><span>Gen Z respondents</span><i>PLS-SEM</i></div></figure>
 </div>
