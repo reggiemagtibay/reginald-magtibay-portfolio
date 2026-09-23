@@ -1,0 +1,29 @@
+"use client";
+import {motion} from "framer-motion";
+
+export default function DigitalMarketing(){return <main>
+<header className="nav"><a className="brand" href="/">REGGIE.</a><nav><a href="/#work">WORK</a><a href="/#about">ABOUT</a><a href="/#contact">CONTACT</a></nav></header>
+
+<section className="dm-hero">
+<div className="dm-hero-copy"><a className="back" href="/">← BACK TO WORK</a><p className="section-label">05 / DIGITAL MARKETING</p><h1>Marketing across<br/>markets, channels<br/>and audiences.</h1><p className="case-lead">Regional digital delivery shaped by localisation, coordination and the realities of working across markets.</p><div className="dm-meta"><span>FOCUS<b>Digital marketing</b></span><span>REGION<b>Asia Pacific</b></span><span>WORK<b>Campaigns · Content · Digital assets</b></span></div></div>
+<div className="dm-hero-visual"><div className="dm-hero-block samsung"><small>REGIONAL DELIVERY</small><strong>SAMSUNG APAC</strong><span>DIGITAL · SOCIAL · LOCALISATION</span></div><div className="dm-hero-block singapore"><small>DESTINATION MARKETING</small><strong>SINGAPORE<br/>TOURISM BOARD</strong><span>WEB · EDM · MULTI-MARKET</span></div></div>
+</section>
+
+<section className="dm-intro"><div><p className="section-label">THE COMMON THREAD</p><h2>Strategy only works when it survives the journey to execution.</h2></div><div><p>My digital marketing work has included regional campaigns, content, social media, websites, email and digital assets across multiple markets in Asia Pacific.</p><p>The organisations and audiences were different, but the delivery challenge was similar: coordinate people, content and approvals while keeping the campaign experience coherent across markets and channels.</p></div></section>
+
+<section className="dm-chapter dm-samsung">
+<div className="dm-chapter-head"><p className="section-label">01 / SAMSUNG APAC</p><h2>Regional campaigns.<br/>Local market realities.</h2></div>
+<div className="dm-chapter-grid"><div className="dm-brand-stage"><span>SAMSUNG</span><small>ASIA PACIFIC</small></div><div className="dm-chapter-copy"><h3>Coordinating digital campaign delivery across APAC.</h3><p>For Samsung APAC, I supported regional digital marketing and campaign delivery, coordinating content, localisation, approvals and digital assets across markets.</p><p>The work sat between regional direction and local execution. Campaign materials needed to move through multiple stakeholders and markets while remaining consistent enough to feel like one regional campaign.</p><div className="dm-tags"><span>CAMPAIGN DELIVERY</span><span>LOCALISATION</span><span>DIGITAL ASSETS</span><span>SOCIAL MEDIA</span></div></div></div>
+</section>
+
+<section className="dm-process"><p className="section-label">THE DELIVERY FLOW</p><h2>One campaign direction.<br/>Multiple points of coordination.</h2><div className="dm-flow"><motion.div initial={{opacity:0,y:18}} whileInView={{opacity:1,y:0}} viewport={{once:true}}><b>01</b><strong>REGIONAL DIRECTION</strong><p>Translate campaign requirements into a workable digital delivery plan.</p></motion.div><i>→</i><motion.div initial={{opacity:0,y:18}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{delay:.08}}><b>02</b><strong>LOCALISATION</strong><p>Coordinate content and assets for different market needs.</p></motion.div><i>→</i><motion.div initial={{opacity:0,y:18}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{delay:.16}}><b>03</b><strong>APPROVALS</strong><p>Keep feedback, stakeholders and revisions moving.</p></motion.div><i>→</i><motion.div initial={{opacity:0,y:18}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{delay:.24}}><b>04</b><strong>DELIVERY</strong><p>Prepare campaign content and digital assets for market execution.</p></motion.div></div></section>
+
+<section className="dm-chapter dm-stb">
+<div className="dm-chapter-head"><p className="section-label">02 / SINGAPORE TOURISM BOARD</p><h2>Destination marketing<br/>across digital touchpoints.</h2></div>
+<div className="dm-chapter-grid reverse"><div className="dm-brand-stage stb"><span>SINGAPORE</span><strong>PASSION MADE POSSIBLE</strong><small>DESTINATION MARKETING</small></div><div className="dm-chapter-copy"><h3>Supporting campaign execution across audiences and channels.</h3><p>For Singapore Tourism Board, I worked on digital marketing initiatives supporting destination marketing, coordinating campaign content and digital execution across audiences and channels.</p><p>The work included website and EDM execution, content updates, quality assurance, approvals and coordination for multi-market delivery.</p><div className="dm-tags"><span>WEBSITE</span><span>EDM</span><span>CONTENT QA</span><span>MULTI-MARKET DELIVERY</span></div></div></div>
+</section>
+
+<section className="dm-compare"><div><p className="section-label">TWO ORGANISATIONS / ONE DELIVERY DISCIPLINE</p><h2>Different briefs.<br/>A shared need for coordination.</h2></div><div className="dm-compare-grid"><article><small>SAMSUNG APAC</small><h3>Regional campaign delivery</h3><p>Digital + social</p><p>Localisation and approvals</p><p>Cross-market asset coordination</p></article><article><small>SINGAPORE TOURISM BOARD</small><h3>Destination marketing delivery</h3><p>Website + EDM</p><p>Content updates and QA</p><p>Multi-market coordination</p></article></div></section>
+
+<section className="dm-close"><p className="section-label">WHAT THE WORK TAUGHT ME</p><h2>Consistency does not mean making every market identical.</h2><div><p>Multi-market digital work requires enough structure to protect the campaign idea and enough flexibility to make execution work locally. Coordination, localisation and quality control are not background tasks. They are part of how strategy becomes a real customer experience.</p><a href="/">← BACK TO SELECTED WORK</a></div></section>
+</main>}
