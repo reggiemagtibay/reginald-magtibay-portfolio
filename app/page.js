@@ -84,7 +84,7 @@ export default function Home(){return <main>
 </div>
 <div className="mack-visual" aria-label="Editorial image and key findings from the Macklemore online backlash investigation">
 <figure className="mack-editorial">
-<img src="https://www.aljazeera.net/wp-content/uploads/2024/06/23322323-1717409476.jpg?quality=85&resize=1600%2C1600" alt="Macklemore wearing a keffiyeh and sunglasses before a performance"/>
+<img src="https://www.edgeofsports.com/column/macklemore-is-a-seattle-sports-superfan-now-he-is-also-a-target/img/column/primary.jpg" alt="Macklemore performing onstage during a concert"/>
 <div className="mack-photo-wash"></div>
 <div className="mack-photo-label">MACKLEMORE / PALESTINE / ONLINE BACKLASH</div>
 <div className="mack-photo-stat"><strong>73.6%</strong><span>OPPOSED REMOVAL</span></div>
