@@ -42,7 +42,7 @@ export default function Home(){return <main>
 </div>
 <div className="research-visual">
 <div className="research-portrait-pair">
-<figure className="vh-home-portrait"><div className="vh-home-face"><span className="vh-home-eye left"></span><span className="vh-home-eye right"></span><i></i></div><figcaption>VIRTUAL HUMANS / CONSUMER PERCEPTION</figcaption></figure>
+<figure className="research-photo"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1200&q=90" alt="Editorial portrait representing a virtual human"/><figcaption>VIRTUAL HUMANS / CONSUMER PERCEPTION</figcaption></figure>
 <figure className="research-paper"><div><small>PUBLISHED / 2025</small><strong>258</strong><span>Gen Z respondents</span><i>PLS-SEM</i></div></figure>
 </div>
 <div className="research-question"><small>THE RESEARCH QUESTION</small><p>What makes a virtual human feel trustworthy?</p></div>
