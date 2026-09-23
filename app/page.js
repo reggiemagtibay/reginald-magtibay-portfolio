@@ -8,19 +8,29 @@ export default function Home(){return <main>
 <section className="intro" id="about-work"><p className="section-label">01 / ABOUT THE WORK</p><h2>I use data to understand what people do and why it matters.</h2><div className="intro-copy"><p>My work spans digital strategy, marketing analytics and research. I use data to understand audiences, evaluate performance and identify patterns that can inform better decisions.</p><p>That can mean analysing campaign performance, developing a digital strategy, studying consumer behaviour or investigating how people respond to issues online.</p><p>The methods change depending on the question. The goal stays the same: turn evidence into something useful.</p></div></section>
 <section className="work" id="work"><article className="project bbs"><div className="project-copy"><p className="section-label">02 / STRATEGY</p><h2>Be BiteSmart</h2><p>Be BiteSmart is a child-safety education programme focused on preventing dog-bite injuries and helping families understand safer interactions between children and dogs.</p><p>I developed a parent-first digital strategy to make its educational resources easier to navigate, discover and use. The work covered audience needs, user journeys, information architecture, content strategy, search and measurement, creating a phased roadmap for the Parents Learning Center.</p><div className="tags"><span>DIGITAL STRATEGY</span><span>USER JOURNEYS</span><span>CONTENT STRATEGY</span><span>INFORMATION ARCHITECTURE</span></div><a className="case-link" href="/work/be-bitesmart">VIEW CASE STUDY <b>↗</b></a></div>
 <div className="strategy-map"><div className="map-head"><span>PARENT-FIRST</span><small>STRATEGIC PROGRESSION</small></div><div className="stages">{stages.map((s,i)=><motion.div className="stage" key={s[0]} initial={{opacity:0,y:22}} whileInView={{opacity:1,y:0}} viewport={{once:true,amount:.6}} transition={{delay:i*.09,duration:.5}}><span className="num">{s[0]}</span><div><strong>{s[1]}</strong><small>{s[2]}</small></div></motion.div>)}</div><div className="journey"><small>PARENT JOURNEY</small><div>{journey.map((x,i)=><span key={x}>{x}{i<journey.length-1&&<i>→</i>}</span>)}</div></div></div></article>
-<article className="project pvc">
-<div className="project-copy"><p className="section-label">03 / ANALYTICS</p><h2>Porter Voice Collective</h2><p>Porter Voice Collective is a nonprofit media platform that shares the stories of mountain tourism workers, including porters and guides from Nepal’s Himalayan trails, Peru’s Camino Inca and Tanzania’s Kilimanjaro.</p><p>I analyse its performance across Instagram, Facebook and LinkedIn, bringing platform data into a consolidated Power BI reporting system. The analysis examines content performance, engagement and audience response to understand which stories and messages are connecting with people and how digital communications can better support the organisation’s advocacy for workforce equity in tourism.</p><div className="tags"><span>MARKETING ANALYTICS</span><span>POWER BI</span><span>SOCIAL MEDIA</span><span>PERFORMANCE REPORTING</span></div><a className="case-link" href="/work/porter-voice-collective">VIEW CASE STUDY <b>↗</b></a></div>
-<div className="signal-board pvc-visual" aria-label="Porter Voice Collective analytics signals">
-<div className="pvc-mark" aria-hidden="true"><div className="mountain">⌁</div><div><strong>THE PORTER VOICE</strong><b>COLLECTIVE</b></div></div>
-<div className="signal-head"><span>THREE PLATFORMS</span><small>ONE REPORTING VIEW</small></div>
-<div className="pvc-insight-grid">
-<motion.div className="pvc-insight hero-insight" initial={{opacity:0,y:18}} whileInView={{opacity:1,y:0}} viewport={{once:true}}><div className="insight-label"><span>INSTAGRAM</span><small>BREAKOUT SIGNAL</small></div><strong>83.7%</strong><p>of total reach came from one breakout post.</p><div className="reach-line"><i/><b/></div></motion.div>
-<motion.div className="pvc-insight" initial={{opacity:0,y:18}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{delay:.1}}><div className="insight-label"><span>LINKEDIN</span><small>RESPONSE EFFICIENCY</small></div><div className="three-stats"><b>3.2×<small>IMPRESSIONS</small></b><b>9.5×<small>ENGAGEMENT</small></b><b>3.0×<small>RATE</small></b></div></motion.div>
-<motion.div className="pvc-insight" initial={{opacity:0,y:18}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{delay:.2}}><div className="insight-label"><span>FACEBOOK</span><small>CONTENT PATTERNS</small></div><p className="fb-copy">Guest and panel-speaker content produced the strongest average reach in the content-type comparison.</p><div className="simple-bars"><i/><i/><i/><i/></div></motion.div>
+<article className="project pvc pvc-editorial">
+<div className="pvc-story">
+  <p className="section-label">03 / ANALYTICS</p>
+  <h2>The Porter Voice Collective</h2>
+  <p className="pvc-lead">A nonprofit media platform elevating the stories of mountain tourism workers across Nepal, Peru and Tanzania.</p>
+  <p className="pvc-role">I bring Instagram, Facebook and LinkedIn performance data into a consolidated Power BI reporting system to understand which stories connect, where, and why.</p>
+  <div className="tags"><span>MARKETING ANALYTICS</span><span>POWER BI</span><span>SOCIAL MEDIA</span><span>PERFORMANCE REPORTING</span></div>
+  <a className="case-link pvc-case-link" href="/work/porter-voice-collective">VIEW CASE STUDY <b>↗</b></a>
 </div>
-<div className="signal-flow"><small>PLATFORM DATA</small><i>→</i><b>POWER BI</b><i>→</i><small>CONTENT SIGNALS</small><i>→</i><b>DECISIONS</b></div>
-<div className="signal-note"><span>THE QUESTION</span><p>Which stories and messages are connecting with people?</p></div>
-</div></article>
+<div className="pvc-photo-story">
+  <motion.figure className="pvc-photo pvc-photo-main" initial={{opacity:0,y:24}} whileInView={{opacity:1,y:0}} viewport={{once:true}}>
+    <img src="https://images.squarespace-cdn.com/content/v1/690e51b514e0a17d18db36b9/9bf62957-e23d-4e0b-98aa-b37f64bfed7c/yana-druzhinina-zvMD7EfVjFI-unsplash.jpg" alt="Mountain landscape used by The Porter Voice Collective" />
+    <figcaption>STORIES FROM THE TRAILS</figcaption>
+  </motion.figure>
+  <motion.div className="pvc-stat-card" initial={{opacity:0,x:20}} whileInView={{opacity:1,x:0}} viewport={{once:true}} transition={{delay:.12}}>
+    <small>INSTAGRAM / BREAKOUT SIGNAL</small><strong>83.7%</strong><p>of total reach came from one breakout post.</p>
+  </motion.div>
+  <motion.figure className="pvc-photo pvc-photo-secondary" initial={{opacity:0,y:18}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{delay:.18}}>
+    <img src="https://images.squarespace-cdn.com/content/v1/690e51b514e0a17d18db36b9/12cd9ca1-847d-4c01-a5e6-a21596649969/eugene-ga-infssQ2tjeM-unsplash.jpg" alt="Mountain landscape used by The Porter Voice Collective" />
+  </motion.figure>
+  <div className="pvc-question"><small>THE QUESTION</small><p>Which stories and messages are connecting with people?</p></div>
+</div>
+</article>
 <div className="placeholders"><p>04 / RESEARCH</p><p>05 / DIGITAL MARKETING</p><p>06 / INDEPENDENT INVESTIGATION</p></div></section>
 <section className="about" id="about"><p className="section-label">07 / ABOUT</p><h2>I'm Reggie.</h2><div><p>I'm a digital strategist and marketing analyst with more than eight years of experience across digital marketing, project management, analytics and research.</p><p>My work has taken me across regional campaigns, digital strategy, performance analysis and academic research. I have an MSc in Digital Marketing from the University of Brighton, where my research into virtual humans and Gen Z consumer behaviour later developed into published research.</p><p>I'm particularly interested in how strategy, data and research can help us understand people, challenge assumptions and address issues that matter to society.</p></div></section>
 <footer id="contact"><h2>Have something worth exploring?</h2><span className="talk">LET'S TALK →</span><p>REGGIE. / 2026</p></footer></main>}
