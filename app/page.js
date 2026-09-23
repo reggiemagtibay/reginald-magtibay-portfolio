@@ -49,6 +49,28 @@ export default function Home(){return <main>
 <div className="research-editorial-question"><small>THE QUESTION</small><p>What makes a virtual human feel trustworthy?</p></div>
 </div>
 </article>
-<div className="placeholders"><p>05 / DIGITAL MARKETING</p><p>06 / INDEPENDENT INVESTIGATION</p></div></section>
+<article className="project marketing-card">
+<div className="marketing-copy">
+<p className="section-label">05 / DIGITAL MARKETING</p>
+<h2>Marketing across markets, channels and audiences.</h2>
+<p>My digital marketing work has included regional campaigns, content, social media, websites, email and digital assets across multiple markets in Asia Pacific.</p>
+<p>For Samsung APAC, I supported regional digital marketing and campaign delivery, coordinating content, localisation, approvals and digital assets across markets.</p>
+<p>For Singapore Tourism Board, I worked on digital marketing initiatives supporting destination marketing, coordinating campaign content and digital execution across audiences and channels.</p>
+<div className="tags"><span>DIGITAL MARKETING</span><span>CAMPAIGN DELIVERY</span><span>CONTENT</span><span>REGIONAL COORDINATION</span></div>
+<a className="case-link" href="/work/digital-marketing">VIEW MARKETING WORK <b>↗</b></a>
+</div>
+<div className="marketing-visual">
+<motion.div className="marketing-brand samsung-panel" initial={{opacity:0,y:22}} whileInView={{opacity:1,y:0}} viewport={{once:true}}>
+<div className="marketing-image samsung-image"></div>
+<div className="marketing-brand-label"><small>REGIONAL CAMPAIGN DELIVERY</small><strong>SAMSUNG APAC</strong><span>DIGITAL · SOCIAL · LOCALISATION</span></div>
+</motion.div>
+<motion.div className="marketing-brand stb-panel" initial={{opacity:0,y:22}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{delay:.12}}>
+<div className="marketing-image stb-image"></div>
+<div className="marketing-brand-label"><small>GLOBAL CAMPAIGN DELIVERY</small><strong>SINGAPORE TOURISM BOARD</strong><span>WEB · EDM · MULTI-MARKET</span></div>
+</motion.div>
+<div className="marketing-bridge"><small>THE COMMON THREAD</small><p>Turning campaign strategy into coordinated digital delivery across markets.</p></div>
+</div>
+</article>
+<div className="placeholders"><p>06 / INDEPENDENT INVESTIGATION</p></div></section>
 <section className="about" id="about"><p className="section-label">07 / ABOUT</p><h2>I'm Reggie.</h2><div><p>I'm a digital strategist and marketing analyst with more than eight years of experience across digital marketing, project management, analytics and research.</p><p>My work has taken me across regional campaigns, digital strategy, performance analysis and academic research. I have an MSc in Digital Marketing from the University of Brighton, where my research into virtual humans and Gen Z consumer behaviour later developed into published research.</p><p>I'm particularly interested in how strategy, data and research can help us understand people, challenge assumptions and address issues that matter to society.</p></div></section>
 <footer id="contact"><h2>Have something worth exploring?</h2><span className="talk">LET'S TALK →</span><p>REGGIE. / 2026</p></footer></main>}
