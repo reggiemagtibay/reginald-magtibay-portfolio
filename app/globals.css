@@ -410,3 +410,16 @@ color:#fff!important;
 line-height:1.25!important;
 letter-spacing:.15em!important;
 }
+
+/* Surprising-result caption — single-line compact strip behind text only */
+.vh-surprise .vh-surprise-photo figcaption{
+display:inline-block!important;
+width:max-content!important;
+max-width:calc(100% - 56px)!important;
+white-space:nowrap!important;
+padding:11px 15px!important;
+background:rgba(24,24,22,.82)!important;
+left:28px!important;
+right:auto!important;
+bottom:24px!important;
+}
