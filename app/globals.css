@@ -346,3 +346,22 @@ max-width:220px!important;
 .vh-network-linear>.vh-linear-arrow{flex:0 0 30px!important;text-align:center!important;font-size:24px!important}
 .vh-network-linear>.vh-ethnicity{position:absolute!important;right:0!important;bottom:24px!important;width:260px!important;border-left:1px solid rgba(240,236,227,.35)!important;padding:4px 0 4px 18px!important;box-sizing:border-box!important;text-align:left!important}
 @media(max-width:900px){.vh-network-linear{flex-direction:column!important;align-items:stretch!important;padding:40px 0!important}.vh-linear-inputs{flex-basis:auto!important}.vh-network-linear>.vh-linear-arrow{transform:rotate(90deg)!important;flex-basis:auto!important}.vh-network-linear>.vh-ethnicity{position:static!important;width:auto!important;margin-top:18px!important}}
+
+/* Conceptual model — restore boxes around predictor variables */
+.vh-network-linear .vh-linear-inputs{display:flex!important;flex-direction:column!important;gap:10px!important;flex:0 0 28%!important;min-width:0!important}
+.vh-network-linear .vh-linear-inputs span{
+display:flex!important;
+align-items:center!important;
+justify-content:center!important;
+width:100%!important;
+min-height:58px!important;
+margin:0!important;
+padding:12px 16px!important;
+box-sizing:border-box!important;
+border:1px solid rgba(240,236,227,.34)!important;
+font-size:11px!important;
+line-height:1.2!important;
+letter-spacing:.07em!important;
+white-space:normal!important;
+text-align:center!important;
+}
