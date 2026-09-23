@@ -396,3 +396,17 @@ object-position:center center!important;
 transform:translateY(-12%)!important;
 transform-origin:center center!important;
 }
+
+/* Surprising-result caption — compact label instead of full-width dark strip */
+.vh-surprise .vh-surprise-photo:after{display:none!important}
+.vh-surprise .vh-surprise-photo figcaption{
+left:28px!important;
+bottom:24px!important;
+width:auto!important;
+max-width:none!important;
+padding:12px 16px!important;
+background:rgba(24,24,22,.78)!important;
+color:#fff!important;
+line-height:1.25!important;
+letter-spacing:.15em!important;
+}
