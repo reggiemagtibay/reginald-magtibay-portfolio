@@ -31,6 +31,24 @@ export default function Home(){return <main>
   <div className="pvc-question"><small>THE QUESTION</small><p>Which stories and messages are connecting with people?</p></div>
 </div>
 </article>
-<div className="placeholders"><p>04 / RESEARCH</p><p>05 / DIGITAL MARKETING</p><p>06 / INDEPENDENT INVESTIGATION</p></div></section>
+<article className="project research-card">
+<div className="research-copy">
+<p className="section-label">04 / RESEARCH</p>
+<h2>Anthropomorphism and diversity in virtual humans</h2>
+<p className="research-lead">Published research into how virtual humans shape the trust, attitudes and purchase intentions of Gen Z consumers.</p>
+<p>The study used survey data from 258 participants and PLS-SEM to examine anthropomorphism, social presence, information quality, trust and attitudes.</p>
+<div className="tags"><span>CONSUMER BEHAVIOUR</span><span>VIRTUAL HUMANS</span><span>QUANTITATIVE RESEARCH</span><span>PLS-SEM</span></div>
+<a className="case-link" href="/work/virtual-humans">VIEW PUBLISHED RESEARCH <b>↗</b></a>
+</div>
+<div className="research-visual">
+<div className="research-portrait-pair">
+<figure><img src="https://images.unsplash.com/photo-1633412802994-5c058f151b66?auto=format&fit=crop&w=900&q=88" alt="Digital human visual"/><figcaption>VIRTUAL HUMANS / CONSUMER PERCEPTION</figcaption></figure>
+<figure className="research-paper"><div><small>PUBLISHED / 2025</small><strong>258</strong><span>Gen Z respondents</span><i>PLS-SEM</i></div></figure>
+</div>
+<div className="research-question"><small>THE RESEARCH QUESTION</small><p>What makes a virtual human feel trustworthy?</p></div>
+<div className="research-signal"><span>SOCIAL PRESENCE</span><i>→</i><span>TRUST</span><i>→</i><span>ATTITUDE</span><i>→</i><span>PURCHASE INTENTION</span></div>
+</div>
+</article>
+<div className="placeholders"><p>05 / DIGITAL MARKETING</p><p>06 / INDEPENDENT INVESTIGATION</p></div></section>
 <section className="about" id="about"><p className="section-label">07 / ABOUT</p><h2>I'm Reggie.</h2><div><p>I'm a digital strategist and marketing analyst with more than eight years of experience across digital marketing, project management, analytics and research.</p><p>My work has taken me across regional campaigns, digital strategy, performance analysis and academic research. I have an MSc in Digital Marketing from the University of Brighton, where my research into virtual humans and Gen Z consumer behaviour later developed into published research.</p><p>I'm particularly interested in how strategy, data and research can help us understand people, challenge assumptions and address issues that matter to society.</p></div></section>
 <footer id="contact"><h2>Have something worth exploring?</h2><span className="talk">LET'S TALK →</span><p>REGGIE. / 2026</p></footer></main>}
