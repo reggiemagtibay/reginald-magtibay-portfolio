@@ -433,3 +433,13 @@ bottom:24px!important;
 .marketing-brand-label{position:absolute;z-index:2;left:24px;right:24px;bottom:24px;color:#fff;display:flex;flex-direction:column}.marketing-brand-label small{font-size:9px;letter-spacing:.16em;margin-bottom:10px;opacity:.8}.marketing-brand-label strong{font-family:Arial,sans-serif;font-size:clamp(25px,2.2vw,38px);line-height:.93;letter-spacing:-.045em;font-weight:500}.marketing-brand-label span{font-size:9px;letter-spacing:.11em;margin-top:14px;opacity:.78}
 .marketing-bridge{grid-column:1/-1;background:#151515;color:#f5f0e7;padding:24px 28px;display:grid;grid-template-columns:150px 1fr;gap:24px;align-items:center}.marketing-bridge small{font-size:9px;letter-spacing:.16em;opacity:.62}.marketing-bridge p{font-family:Georgia,serif;font-size:20px;line-height:1.2;margin:0;max-width:580px}
 @media(max-width:900px){.marketing-card{grid-template-columns:1fr;padding:8vh 6vw;gap:50px}.marketing-visual{min-height:900px;grid-template-columns:1fr;grid-template-rows:1fr 1fr auto}.marketing-bridge{grid-column:auto;grid-template-columns:1fr;gap:10px}.marketing-copy h2{font-size:clamp(44px,12vw,68px)}}
+
+/* Digital marketing card — stronger campaign-led imagery */
+.samsung-image{
+background-image:linear-gradient(180deg,rgba(0,0,0,.02) 24%,rgba(0,0,0,.76) 100%),url("https://images.squarespace-cdn.com/content/v1/5c6fcc78e66669054b8c968d/1698065038822-HIOBHFMUHLKD5KFWAANX/Samsung%2BOOH%2BBirmingham%2BNight.jpg")!important;
+background-position:48% center!important;
+}
+.stb-image{
+background-image:linear-gradient(180deg,rgba(0,0,0,.01) 28%,rgba(0,0,0,.72) 100%),url("https://image.kkday.com/v2/image/get/c_fit%2Cq_80%2Ct_webp%2Cw_1400/s1.kkday.com/product_29100/20190801150431_WuQyD/jpg")!important;
+background-position:center center!important;
+}
