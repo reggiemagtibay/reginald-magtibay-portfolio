@@ -226,3 +226,12 @@
 .research-editorial-stat i{display:block!important;font-size:14px!important;line-height:1.2!important;letter-spacing:.1em!important;padding-top:20px!important}
 .research-editorial-stat small{font-size:11px!important}
 }
+
+/* Research stat panel — preserve left edge, widen outward to the right */
+@media(min-width:901px){
+.research-editorial-stat{left:68%!important;right:auto!important;width:38%!important;min-height:345px!important;padding:30px 34px!important}
+.research-editorial-stat small{font-size:11px!important;line-height:1.2!important}
+.research-editorial-stat strong{font-size:94px!important;line-height:.84!important;margin:54px 0 12px!important;letter-spacing:-.045em!important}
+.research-editorial-stat span{font-size:15px!important;line-height:1.18!important;white-space:normal!important}
+.research-editorial-stat i{font-size:14px!important;padding-top:16px!important}
+}
