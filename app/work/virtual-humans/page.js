@@ -12,8 +12,14 @@ export default function VirtualHumans(){return <main>
 
 <section className="vh-model"><div className="vh-model-head"><p className="section-label">THE CONCEPTUAL MODEL</p><h2>From human-like cues<br/>to consumer response.</h2></div><div className="vh-network">
 <div className="vh-inputs"><span>ANTHROPOMORPHISM</span><span>SOCIAL PRESENCE</span><span>INFORMATION QUALITY</span></div>
-<div className="vh-flow-main"><div className="vh-node trust">TRUST</div><div className="vh-arrow">→</div><div className="vh-node attitude">ATTITUDE</div><div className="vh-arrow">→</div><div className="vh-node final">PURCHASE<br/>INTENTION</div></div>
-<div className="vh-ethnicity"><small>MODERATOR</small><strong>ETHNICITY</strong><span>Tested across the model</span></div></div></section>
+<div className="vh-converge">→</div>
+<div className="vh-node trust">TRUST</div>
+<div className="vh-arrow">→</div>
+<div className="vh-node attitude">ATTITUDE</div>
+<div className="vh-arrow">→</div>
+<div className="vh-node final">PURCHASE<br/>INTENTION</div>
+<div className="vh-ethnicity"><small>MODERATOR</small><strong>ETHNICITY</strong><span>Tested across the model</span></div>
+</div></section>
 
 <section className="vh-method"><div><p className="section-label">METHOD</p><strong>258</strong><h2>Gen Z respondents retained for analysis.</h2></div><div className="vh-method-copy"><p>Participants were recruited online and completed a Qualtrics survey using a seven-point Likert scale. They were introduced to virtual humans in a retail context and shown a scenario involving a virtual human named Nova.</p><p>Data were analysed in SmartPLS. The model assessed anthropomorphism, social presence, information quality, trust, attitudes, purchase intentions and ethnicity.</p><div className="vh-method-tags"><span>ONLINE SURVEY</span><span>7-POINT LIKERT</span><span>SMARTPLS</span><span>PLS-SEM</span></div></div></section>
 
