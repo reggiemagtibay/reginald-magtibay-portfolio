@@ -255,3 +255,13 @@
 .vh-editorial-hero .vh-journal p{font-size:20px!important;line-height:1.08!important;margin:38px 0 34px!important;max-width:270px!important}
 .vh-editorial-hero .vh-journal b{font-size:10px!important;line-height:1.45!important;letter-spacing:.025em!important;margin-top:0!important;max-width:250px!important;overflow-wrap:normal!important;word-break:normal!important}
 }
+
+/* Virtual Humans hero — compact publication card */
+@media(min-width:901px){
+.vh-editorial-hero figure{inset:0 12% 0 0!important}
+.vh-editorial-hero figure img{object-position:center center!important}
+.vh-editorial-hero .vh-journal{right:0!important;bottom:92px!important;width:47%!important;min-height:0!important;height:330px!important;padding:28px 30px 26px!important;justify-content:flex-start!important}
+.vh-editorial-hero .vh-journal small{font-size:10px!important;line-height:1.15!important;letter-spacing:.12em!important}
+.vh-editorial-hero .vh-journal p{font-size:20px!important;line-height:1.02!important;margin:42px 0 0!important;max-width:250px!important}
+.vh-editorial-hero .vh-journal b{font-size:10px!important;line-height:1.4!important;letter-spacing:.02em!important;margin-top:48px!important;max-width:240px!important}
+}
