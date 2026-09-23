@@ -77,3 +77,8 @@
 .pvc2-hero{align-items:stretch}.pvc2-hero-copy{min-height:650px;padding-top:9vh}.pvc2-hero-image{align-self:stretch;height:auto;min-height:650px}
 .pvc2-context{grid-template-columns:.88fr .82fr .42fr;align-items:center;padding-top:7vh;padding-bottom:7vh}.pvc2-context>div{align-self:center;padding-right:4.5vw}.pvc2-context h2{font-size:clamp(40px,4.2vw,66px);line-height:.91;margin:22px 0 28px}.pvc2-context figure{height:360px;align-self:center}.pvc2-context blockquote{align-self:center;height:360px;display:flex;flex-direction:column;justify-content:center;padding:38px 28px}
 @media(max-width:900px){.pvc2-hero-copy{min-height:auto}.pvc2-hero-image{min-height:0;height:420px}.pvc2-context{grid-template-columns:1fr;align-items:start}.pvc2-context h2{font-size:clamp(44px,12vw,64px)}.pvc2-context figure,.pvc2-context blockquote{height:auto;min-height:320px}.pvc2-context blockquote{margin-top:0}}
+
+/* PVC image edge fixes */
+.pvc2-hero{padding-right:4vw;column-gap:4vw}.pvc2-hero-image{align-self:center;height:calc(100% - 8vh);min-height:0;max-height:650px;margin:4vh 0;overflow:hidden}.pvc2-hero-image img{object-position:center center}
+.pvc2-context{align-items:center}.pvc2-context figure{height:340px;margin:0}.pvc2-context blockquote{height:340px;margin:0;align-self:center;background:#e9e6dc}
+@media(max-width:900px){.pvc2-hero{padding-right:4vw;column-gap:0}.pvc2-hero-image{height:420px;max-height:none;margin:0 0 4vh}.pvc2-context figure,.pvc2-context blockquote{height:auto;min-height:300px}}
