@@ -71,6 +71,28 @@ export default function Home(){return <main>
 <div className="marketing-bridge"><small>THE COMMON THREAD</small><p>Turning campaign strategy into coordinated digital delivery across markets.</p></div>
 </div>
 </article>
-<div className="placeholders"><p>06 / INDEPENDENT INVESTIGATION</p></div></section>
+<article className="project mack-card">
+<div className="mack-copy">
+<p className="section-label">06 / INDEPENDENT INVESTIGATION</p>
+<h2>Macklemore, Palestine and the Limits of Online Backlash</h2>
+<p className="mack-subtitle">Beyond the noise, outrage and assumptions of a divided internet</p>
+<p>When Macklemore was removed from Ed Sheeran’s U.S. tour following his onstage support for Palestine, the reaction online was immediate and divided. I wanted to understand what that reaction actually represented and whether the loudest voices reflected broader audience opinion.</p>
+<p>I collected and manually coded 1,020 comments from 42 source units across YouTube, Reddit, Facebook, Instagram and X, examining attitudes towards Macklemore, his advocacy for Palestine and his removal from the tour.</p>
+<p>The analysis found that online backlash was not the same as support for consequences: 73.6% of comments opposed his removal, while attitudes, arguments and emotional intensity varied substantially across platforms.</p>
+<div className="tags"><span>SOCIAL LISTENING</span><span>CONTENT ANALYSIS</span><span>POWER BI</span><span>PREDICTIVE MODELLING</span></div>
+<a className="case-link" href="/work/macklemore-online-backlash">EXPLORE THE INVESTIGATION <b>↗</b></a>
+</div>
+<div className="mack-visual" aria-label="Key findings from the Macklemore online backlash investigation">
+<div className="mack-paper">
+<div className="mack-kicker">A MUSIC INDUSTRY<br/>ANALYTICS PROJECT</div>
+<div className="mack-headline">BACKLASH<br/><em>WASN'T</em><br/>A BINARY.</div>
+<div className="mack-stat"><strong>73.6%</strong><span>OPPOSED REMOVAL</span></div>
+<div className="mack-rule"></div>
+<div className="mack-signals"><span><b>1,020</b> COMMENTS</span><span><b>42</b> SOURCES</span><span><b>5</b> PLATFORMS</span></div>
+<div className="mack-note">THE LOUDEST REACTION<br/><em>WASN'T THE STRONGEST SIGNAL.</em></div>
+<div className="mack-tape mack-tape-a">CAUSE ≠ ARTIST</div><div className="mack-tape mack-tape-b">HEAT ≠ CONSEQUENCE</div>
+</div>
+</div>
+</article></section>
 <section className="about" id="about"><p className="section-label">07 / ABOUT</p><h2>I'm Reggie.</h2><div><p>I'm a digital strategist and marketing analyst with more than eight years of experience across digital marketing, project management, analytics and research.</p><p>My work has taken me across regional campaigns, digital strategy, performance analysis and academic research. I have an MSc in Digital Marketing from the University of Brighton, where my research into virtual humans and Gen Z consumer behaviour later developed into published research.</p><p>I'm particularly interested in how strategy, data and research can help us understand people, challenge assumptions and address issues that matter to society.</p></div></section>
 <footer id="contact"><h2>Have something worth exploring?</h2><span className="talk">LET'S TALK →</span><p>REGGIE. / 2026</p></footer></main>}
