@@ -467,3 +467,11 @@ color:#fff!important;
 background:rgba(0,0,0,.72)!important;
 padding:9px 12px!important;
 }
+
+/* Digital marketing card — true 16:9 campaign frames */
+.marketing-visual{min-height:0!important;grid-template-columns:1fr 1fr!important;grid-template-rows:auto auto!important;align-content:center!important}
+.marketing-brand{aspect-ratio:16/9!important;min-height:0!important}
+.samsung-image{background-image:linear-gradient(180deg,rgba(0,0,0,.01) 35%,rgba(0,0,0,.70) 100%),url("https://img.global.news.samsung.com/global/wp-content/uploads/2026/06/11174620/Samsung-TVs-and-Displays-Global-Landmark-Outdoor-Billboard-Campaigns-Micro-RGB_Main4.jpg")!important;background-position:center!important;background-size:cover!important}
+.stb-image{background-image:linear-gradient(180deg,rgba(0,0,0,.01) 35%,rgba(0,0,0,.66) 100%),url("https://isomer-user-content.by.gov.sg/1/275acc5c-37e4-410e-8e26-e1cb5dba749f/Made%20in%20Singapore.jpg")!important;background-position:center!important;background-size:cover!important}
+.samsung-panel:before{display:none!important}
+@media(max-width:900px){.marketing-visual{grid-template-columns:1fr!important;grid-template-rows:auto auto auto!important}.marketing-brand{aspect-ratio:16/9!important}}
