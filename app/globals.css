@@ -386,3 +386,13 @@ object-position:center center!important;
 transform:translateY(-14%) scale(1.04)!important;
 transform-origin:center center!important;
 }
+
+/* Surprising-result portrait — fill frame after upward crop, no exposed bottom strip */
+.vh-surprise .vh-surprise-photo img{
+width:100%!important;
+height:120%!important;
+object-fit:cover!important;
+object-position:center center!important;
+transform:translateY(-12%)!important;
+transform-origin:center center!important;
+}
