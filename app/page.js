@@ -82,16 +82,15 @@ export default function Home(){return <main>
 <div className="tags"><span>SOCIAL LISTENING</span><span>CONTENT ANALYSIS</span><span>POWER BI</span><span>PREDICTIVE MODELLING</span></div>
 <a className="case-link" href="/work/macklemore-online-backlash">EXPLORE THE INVESTIGATION <b>↗</b></a>
 </div>
-<div className="mack-visual" aria-label="Key findings from the Macklemore online backlash investigation">
-<div className="mack-paper">
-<div className="mack-kicker">A MUSIC INDUSTRY<br/>ANALYTICS PROJECT</div>
-<div className="mack-headline">BACKLASH<br/><em>WASN'T</em><br/>A BINARY.</div>
-<div className="mack-stat"><strong>73.6%</strong><span>OPPOSED REMOVAL</span></div>
-<div className="mack-rule"></div>
-<div className="mack-signals"><span><b>1,020</b> COMMENTS</span><span><b>42</b> SOURCES</span><span><b>5</b> PLATFORMS</span></div>
-<div className="mack-note">THE LOUDEST REACTION<br/><em>WASN'T THE STRONGEST SIGNAL.</em></div>
-<div className="mack-tape mack-tape-a">CAUSE ≠ ARTIST</div><div className="mack-tape mack-tape-b">HEAT ≠ CONSEQUENCE</div>
-</div>
+<div className="mack-visual" aria-label="Editorial image and key findings from the Macklemore online backlash investigation">
+<figure className="mack-editorial">
+<img src="https://www.aljazeera.net/wp-content/uploads/2024/06/23322323-1717409476.jpg?quality=85&resize=1600%2C1600" alt="Macklemore wearing a keffiyeh and sunglasses before a performance"/>
+<div className="mack-photo-wash"></div>
+<div className="mack-photo-label">MACKLEMORE / PALESTINE / ONLINE BACKLASH</div>
+<div className="mack-photo-stat"><strong>73.6%</strong><span>OPPOSED REMOVAL</span></div>
+<div className="mack-photo-signals"><span><b>1,020</b> COMMENTS</span><span><b>42</b> SOURCES</span><span><b>5</b> PLATFORMS</span></div>
+<figcaption>EDITORIAL CONTEXT / MACKLEMORE</figcaption>
+</figure>
 </div>
 </article></section>
 <section className="about" id="about"><p className="section-label">07 / ABOUT</p><h2>I'm Reggie.</h2><div><p>I'm a digital strategist and marketing analyst with more than eight years of experience across digital marketing, project management, analytics and research.</p><p>My work has taken me across regional campaigns, digital strategy, performance analysis and academic research. I have an MSc in Digital Marketing from the University of Brighton, where my research into virtual humans and Gen Z consumer behaviour later developed into published research.</p><p>I'm particularly interested in how strategy, data and research can help us understand people, challenge assumptions and address issues that matter to society.</p></div></section>
