@@ -246,3 +246,12 @@
 .vh-editorial-hero .vh-journal p{font-size:22px!important;line-height:1.03!important;margin:58px 0 0!important;max-width:100%!important}
 .vh-editorial-hero .vh-journal b{font-size:11px!important;line-height:1.55!important;letter-spacing:.04em!important;margin-top:auto!important;overflow-wrap:anywhere!important}
 }
+
+/* Case-study hero publication card — final horizontal editorial treatment */
+@media(min-width:901px){
+.vh-editorial-hero figure{inset:0 10% 0 0!important}
+.vh-editorial-hero .vh-journal{right:-2%!important;bottom:76px!important;width:52%!important;min-height:310px!important;height:auto!important;padding:30px 32px 28px!important}
+.vh-editorial-hero .vh-journal small{font-size:11px!important;line-height:1.2!important;letter-spacing:.12em!important}
+.vh-editorial-hero .vh-journal p{font-size:20px!important;line-height:1.08!important;margin:38px 0 34px!important;max-width:270px!important}
+.vh-editorial-hero .vh-journal b{font-size:10px!important;line-height:1.45!important;letter-spacing:.025em!important;margin-top:0!important;max-width:250px!important;overflow-wrap:normal!important;word-break:normal!important}
+}
