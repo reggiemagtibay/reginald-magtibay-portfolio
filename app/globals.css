@@ -365,3 +365,10 @@ letter-spacing:.07em!important;
 white-space:normal!important;
 text-align:center!important;
 }
+
+/* Surprising-result portrait — lift crop to remove dead space above head */
+.vh-surprise figure img,
+.vh-surprise-image img,
+.vh-surprise img{
+object-position:center 18%!important;
+}
