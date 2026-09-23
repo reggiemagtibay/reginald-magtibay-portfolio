@@ -217,3 +217,12 @@
 .research-editorial-stat small{font-size:10px!important;letter-spacing:.14em!important}
 .research-editorial-photo figcaption{display:none!important}
 @media(max-width:900px){.research-editorial-stat{padding:26px!important}.research-editorial-stat strong{margin-top:48px!important}.research-editorial-stat i{font-size:11px!important}}
+
+/* Research homepage stat panel — explicit desktop geometry */
+@media(min-width:901px){
+.research-editorial-stat{right:0!important;top:60px!important;width:36%!important;min-height:390px!important;padding:36px 44px 32px 34px!important;overflow:hidden!important}
+.research-editorial-stat strong{display:block!important;width:auto!important;font-size:92px!important;line-height:.82!important;margin:72px 0 18px!important;letter-spacing:-.055em!important;white-space:nowrap!important}
+.research-editorial-stat span{display:block!important;font-size:16px!important;line-height:1.25!important;white-space:nowrap!important}
+.research-editorial-stat i{display:block!important;font-size:14px!important;line-height:1.2!important;letter-spacing:.1em!important;padding-top:20px!important}
+.research-editorial-stat small{font-size:11px!important}
+}
