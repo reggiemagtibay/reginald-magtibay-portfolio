@@ -10,13 +10,13 @@ export default function VirtualHumans(){return <main>
 
 <section className="vh-context vh-editorial-context"><div><p className="section-label">THE RESEARCH</p><h2>When a digital persona looks human, what actually makes people trust it?</h2><p>Virtual humans are increasingly used in marketing, retail and customer interactions. The study examined whether anthropomorphism, social presence, information quality and ethnicity shape how British Gen Z consumers respond to autonomous virtual humans.</p><p>The research was conducted with Nadia Lonsdale and Gokhan Aydin and published in <i>Corporate Communications: An International Journal</i>.</p></div><figure className="vh-context-image"><img src="https://images.unsplash.com/photo-1617802690992-15d93263d3a9?auto=format&fit=crop&w=1600&q=90" alt="Immersive digital experience used as editorial context for social presence research"/><figcaption>SOCIAL PRESENCE / HUMAN–TECHNOLOGY INTERACTION</figcaption></figure></section>
 
-<section className="vh-model"><div className="vh-model-head"><p className="section-label">THE CONCEPTUAL MODEL</p><h2>From human-like cues<br/>to consumer response.</h2></div><div className="vh-network">
-<div className="vh-inputs"><span>ANTHROPOMORPHISM</span><span>SOCIAL PRESENCE</span><span>INFORMATION QUALITY</span></div>
-<div className="vh-converge">→</div>
-<div className="vh-node trust">TRUST</div>
-<div className="vh-arrow">→</div>
-<div className="vh-node attitude">ATTITUDE</div>
-<div className="vh-arrow">→</div>
+<section className="vh-model"><div className="vh-model-head"><p className="section-label">THE CONCEPTUAL MODEL</p><h2>From human-like cues<br/>to consumer response.</h2></div><div className="vh-network vh-network-linear">
+<div className="vh-linear-inputs"><span>ANTHROPOMORPHISM</span><span>SOCIAL PRESENCE</span><span>INFORMATION QUALITY</span></div>
+<div className="vh-linear-arrow">→</div>
+<div className="vh-node">TRUST</div>
+<div className="vh-linear-arrow">→</div>
+<div className="vh-node">ATTITUDE</div>
+<div className="vh-linear-arrow">→</div>
 <div className="vh-node final">PURCHASE<br/>INTENTION</div>
 <div className="vh-ethnicity"><small>MODERATOR</small><strong>ETHNICITY</strong><span>Tested across the model</span></div>
 </div></section>
