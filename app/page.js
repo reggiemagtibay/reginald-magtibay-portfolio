@@ -31,7 +31,7 @@ export default function Home(){return <main>
   <div className="pvc-question"><small>THE QUESTION</small><p>Which stories and messages are connecting with people?</p></div>
 </div>
 </article>
-<article className="project research-card">
+<article className="project research-card research-editorial">
 <div className="research-copy">
 <p className="section-label">04 / RESEARCH</p>
 <h2>Anthropomorphism and diversity in virtual humans</h2>
@@ -40,13 +40,13 @@ export default function Home(){return <main>
 <div className="tags"><span>CONSUMER BEHAVIOUR</span><span>VIRTUAL HUMANS</span><span>QUANTITATIVE RESEARCH</span><span>PLS-SEM</span></div>
 <a className="case-link" href="/work/virtual-humans">VIEW PUBLISHED RESEARCH <b>↗</b></a>
 </div>
-<div className="research-visual">
-<div className="research-portrait-pair research-reference-art">
-<figure className="research-photo"><img src="/images/virtual-human-portrait.webp" alt="Editorial CGI portrait representing a virtual human"/><div className="research-photo-note">PEOPLE<br/>TECHNOLOGY<br/>TRUST<br/>BRANDS</div><figcaption>VIRTUAL HUMANS / CONSUMER PERCEPTION</figcaption></figure>
-<figure className="research-paper"><div><small>PUBLISHED / 2025</small><strong>258</strong><span>Gen Z respondents</span><i>PLS-SEM</i></div></figure>
-</div>
-<div className="research-question"><small>THE RESEARCH QUESTION</small><p>What makes a virtual human feel trustworthy?</p></div>
-<div className="research-signal"><span>SOCIAL PRESENCE</span><i>→</i><span>TRUST</span><i>→</i><span>ATTITUDE</span><i>→</i><span>PURCHASE INTENTION</span></div>
+<div className="research-editorial-visual">
+<figure className="research-editorial-photo">
+<img src="https://images.wondershare.cn/virbo/images2023/article/20230728-26.png" alt="Realistic digital human avatar used as editorial context for research into virtual humans"/>
+<figcaption>VIRTUAL HUMANS / CONSUMER PERCEPTION</figcaption>
+</figure>
+<div className="research-editorial-stat"><small>PUBLISHED / 2025</small><strong>258</strong><span>Gen Z respondents</span><i>PLS-SEM</i></div>
+<div className="research-editorial-question"><small>THE QUESTION</small><p>What makes a virtual human feel trustworthy?</p></div>
 </div>
 </article>
 <div className="placeholders"><p>05 / DIGITAL MARKETING</p><p>06 / INDEPENDENT INVESTIGATION</p></div></section>
