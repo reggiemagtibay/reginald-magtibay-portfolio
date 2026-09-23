@@ -290,3 +290,21 @@ margin-top:34px!important;
 max-width:220px!important;
 }
 }
+
+/* Conceptual model — asymmetric editorial flow */
+.vh-network{position:relative!important;display:grid!important;grid-template-columns:minmax(260px,31%) 1fr!important;gap:8vw!important;align-items:center!important;padding:62px 0 90px!important}
+.vh-inputs{display:flex!important;flex-direction:column!important;gap:14px!important}
+.vh-inputs span{min-height:62px!important;display:flex!important;align-items:center!important;padding:0 28px!important}
+.vh-inputs span:nth-child(1){width:88%!important}
+.vh-inputs span:nth-child(2){width:100%!important;margin-left:7%!important}
+.vh-inputs span:nth-child(3){width:82%!important;margin-left:2%!important}
+.vh-flow-main{display:grid!important;grid-template-columns:1fr 42px 1.08fr 42px 1.18fr!important;gap:12px!important;align-items:center!important;transform:translateY(14px)!important}
+.vh-flow-main .vh-node{min-height:76px!important}
+.vh-flow-main .trust{transform:translateY(-26px)!important}
+.vh-flow-main .attitude{transform:translateY(8px)!important}
+.vh-flow-main .final{transform:translateY(-10px)!important}
+.vh-ethnicity{position:absolute!important;right:12%!important;bottom:12px!important;width:230px!important;border-left:1px solid rgba(240,236,227,.38)!important;padding:4px 0 4px 20px!important;text-align:left!important}
+.vh-ethnicity small{display:block!important;font-size:9px!important;letter-spacing:.16em!important;margin-bottom:7px!important}
+.vh-ethnicity strong{display:block!important;font-family:Georgia,serif!important;font-size:22px!important;font-weight:400!important;letter-spacing:0!important}
+.vh-ethnicity span{display:block!important;font-size:10px!important;margin-top:5px!important;opacity:.72!important}
+@media(max-width:900px){.vh-network{grid-template-columns:1fr!important;gap:34px!important;padding:42px 0!important}.vh-inputs span,.vh-inputs span:nth-child(n){width:100%!important;margin-left:0!important}.vh-flow-main{grid-template-columns:1fr!important;transform:none!important}.vh-flow-main .vh-node{transform:none!important}.vh-flow-main .vh-arrow{transform:rotate(90deg)!important}.vh-ethnicity{position:static!important;width:auto!important;margin-top:8px!important}}
