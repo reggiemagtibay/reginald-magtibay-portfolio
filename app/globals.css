@@ -522,3 +522,11 @@ bottom:24px!important;
 .about-line{gap:22px;justify-content:flex-start;overflow:hidden}.about-line i{display:none}
 .editorial-footer{min-height:70vh}.footer-links{grid-template-columns:1fr 1fr;row-gap:24px}.footer-links span{text-align:left}
 }
+
+/* About — restrained geometric signature */
+.about-geometry{position:relative;height:150px;margin:0 -4vw;overflow:hidden;border-top:1px solid #b9b1a4}
+.about-geometry .geo-circle{position:absolute;width:210px;height:210px;border:1px solid #111;border-radius:50%;left:7vw;top:54px}
+.about-geometry .geo-square{position:absolute;width:112px;height:112px;border:1px solid #111;right:8vw;top:34px;transform:rotate(45deg)}
+.about-geometry .geo-line{position:absolute;height:1px;background:#111;width:42vw;left:29vw;top:88px;transform:rotate(-6deg);transform-origin:left center}
+.about-geometry .geo-dot{position:absolute;width:13px;height:13px;border-radius:50%;background:#111;left:58%;top:69px}
+@media(max-width:850px){.about-geometry{height:115px}.about-geometry .geo-circle{width:150px;height:150px;left:-28px;top:45px}.about-geometry .geo-square{width:80px;height:80px;right:8vw;top:32px}.about-geometry .geo-line{width:48vw;left:28vw;top:70px}}
