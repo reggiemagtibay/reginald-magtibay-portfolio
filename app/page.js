@@ -1,5 +1,7 @@
 "use client";
 import {motion} from "framer-motion";
+import samsungFoldable from "../public/images/samsung-foldable.webp";
+import jewelChangi from "../public/images/jewel-changi.webp";
 const stages=[["01","Audience","Parent-first"],["02","Experience","From resources to a learning journey"],["03","Architecture","Organised around real parent questions"],["04","Content","A connected, reusable content system"],["05","Governance","Trusted, traceable and sustainable"]];
 const journey=["Pregnancy","Newborn","Crawling","Walking","Toddler","Preschool"];
 export default function Home(){return <main>
@@ -61,11 +63,11 @@ export default function Home(){return <main>
 </div>
 <div className="marketing-visual">
 <motion.div className="marketing-brand samsung-panel" initial={{opacity:0,y:22}} whileInView={{opacity:1,y:0}} viewport={{once:true}}>
-<img className="marketing-image samsung-image" src="/images/samsung-foldable.webp" alt="Samsung foldable smartphone campaign visual"/>
+<img className="marketing-image samsung-image" src={samsungFoldable.src} alt="Samsung foldable smartphone campaign visual"/>
 <div className="marketing-brand-label"><small>REGIONAL CAMPAIGN DELIVERY</small><strong>SAMSUNG APAC</strong><span>DIGITAL · SOCIAL · LOCALISATION</span></div>
 </motion.div>
 <motion.div className="marketing-brand stb-panel" initial={{opacity:0,y:22}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{delay:.12}}>
-<img className="marketing-image stb-image" src="/images/jewel-changi.webp" alt="Jewel Changi Airport campaign visual for Singapore tourism"/>
+<img className="marketing-image stb-image" src={jewelChangi.src} alt="Jewel Changi Airport campaign visual for Singapore tourism"/>
 <div className="marketing-brand-label"><small>GLOBAL CAMPAIGN DELIVERY</small><strong>SINGAPORE TOURISM BOARD</strong><span>WEB · EDM · MULTI-MARKET</span></div>
 </motion.div>
 <div className="marketing-bridge"><small>THE COMMON THREAD</small><p>Turning campaign strategy into coordinated digital delivery across markets.</p></div>
