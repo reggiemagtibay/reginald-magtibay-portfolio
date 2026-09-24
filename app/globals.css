@@ -569,3 +569,23 @@ bottom:24px!important;
 .intro-manifesto>h2{grid-column:1;grid-row:2;font-size:clamp(56px,16vw,94px);margin-bottom:8vh}
 .intro-manifesto .intro-copy{grid-column:1;grid-row:3;max-width:600px;align-self:auto}
 }
+
+
+/* Be BiteSmart — final editorial balance */
+.bbs{grid-template-columns:minmax(0,.78fr) minmax(560px,1.22fr);gap:5vw}
+.bbs .project-copy{align-self:center}
+.bbs .project-copy h2{margin-bottom:28px}
+.bbs .project-copy>p:not(.section-label){font-size:15px;line-height:1.52;max-width:560px}
+.bbs .project-copy .tags{margin:26px 0 20px}
+.bbs-visual{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(300px,.88fr);grid-template-rows:auto;gap:28px;align-items:start}
+.bbs-home-image{grid-column:1;margin:0;aspect-ratio:4/5;min-height:540px}
+.bbs-home-image img{object-position:center 42%}
+.bbs .strategy-map{grid-column:2;border-left:1px solid var(--ink);padding-left:26px}
+.bbs .stage{grid-template-columns:48px 1fr;gap:12px;padding:16px 0}
+.bbs .stage .num{font-size:24px}
+.bbs .stage strong{font-size:12px}
+.bbs .stage small{font-size:10px}
+.bbs .journey{padding-top:20px}
+.bbs .journey div{font-size:12px;gap:5px}
+@media(max-width:1100px){.bbs-visual{grid-template-columns:1fr}.bbs-home-image{grid-column:1;aspect-ratio:16/9;min-height:0}.bbs .strategy-map{grid-column:1;border-left:0;border-top:1px solid var(--ink);padding:26px 0 0}}
+@media(max-width:850px){.bbs{grid-template-columns:1fr}.bbs-home-image{aspect-ratio:16/10}}
