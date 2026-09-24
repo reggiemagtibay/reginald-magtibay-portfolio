@@ -1,0 +1,61 @@
+/* Final editorial polish for Macklemore investigation */
+.mk-case .mk-scope-head>p:last-child,
+.mk-case .mk-finding-copy>p:last-of-type,
+.mk-case .mk-frames-copy>p:last-child,
+.mk-case .mk-heat-copy>p:last-child,
+.mk-case .mk-dashboard-break>div>p:last-child,
+.mk-case .mk-weight>p,
+.mk-case .mk-model-head>p:last-child,
+.mk-case .mk-close>div{font-size:19px!important;line-height:1.68!important}
+.mk-case .mk-caution{font-size:15px!important;line-height:1.65!important}
+.mk-case .mk-model-note{font-size:13px!important;line-height:1.55!important;max-width:760px!important}
+
+/* Give the framing evidence more authority and legibility */
+.mk-case .mk-frames{grid-template-columns:.72fr 1.28fr;gap:8vw;padding-top:14vh;padding-bottom:14vh}
+.mk-case .mk-frame-chart{width:100%;padding:3vh 0}
+.mk-case .mk-frame-row{grid-template-columns:210px minmax(260px,1fr) 72px;gap:18px;margin:23px 0}
+.mk-case .mk-frame-row>span{font-size:11px!important;line-height:1.25;letter-spacing:.09em}
+.mk-case .mk-frame-row>div{height:27px}
+.mk-case .mk-frame-row b{font-size:24px!important}
+.mk-case .mk-frame-row:first-child>div{height:34px}
+.mk-case .mk-frame-row:first-child b{font-size:30px!important}
+
+/* Seven analytical views: editorial index rather than a utility list */
+.mk-case .mk-dashboard-break{grid-template-columns:.78fr 1.22fr;gap:9vw;padding-top:12vh;padding-bottom:12vh}
+.mk-case .mk-dashboard-stack{counter-reset:view;border-top:2px solid #181716}
+.mk-case .mk-dashboard-stack span{position:relative;display:grid;grid-template-columns:72px 1fr;align-items:center;min-height:72px;padding:15px 8px 15px 0;border-bottom:1px solid rgba(24,23,22,.35);font-family:Georgia,serif;font-size:clamp(18px,1.7vw,27px);line-height:1.05;letter-spacing:-.02em}
+.mk-case .mk-dashboard-stack span::first-letter{font-family:Arial,Helvetica,sans-serif;font-size:10px;letter-spacing:.12em}
+.mk-case .mk-dashboard-stack span:nth-child(odd){padding-left:18px}
+
+/* Robustness: make the comparison breathe */
+.mk-case .mk-robust{grid-template-columns:.72fr 1.28fr;gap:9vw;padding-top:14vh;padding-bottom:14vh}
+.mk-case .mk-weight{column-gap:38px;row-gap:34px}
+.mk-case .mk-weight>div{padding-top:22px}
+.mk-case .mk-weight strong{display:block;margin-bottom:12px}
+.mk-case .mk-weight span{font-size:10px;line-height:1.4}
+.mk-case .mk-weight>p{margin-top:10px;max-width:820px}
+
+/* Predictive section: keep the drama but improve reading rhythm */
+.mk-case .mk-model{padding-top:14vh;padding-bottom:14vh}
+.mk-case .mk-model-head{grid-template-columns:1.12fr .88fr;gap:8vw;align-items:end}
+.mk-case .mk-auc{margin-top:54px}
+.mk-case .mk-auc>div{padding-top:42px;padding-bottom:38px}
+.mk-case .mk-auc strong{margin:18px 0}
+.mk-case .mk-model-note{margin-top:32px;color:#b9b1a6}
+
+/* Ending: turn the conclusion into a deliberate final editorial beat */
+.mk-case .mk-close{grid-template-columns:1.2fr .8fr;gap:9vw;padding-top:15vh;padding-bottom:15vh}
+.mk-case .mk-close h2{font-size:clamp(70px,8vw,128px);line-height:.88;max-width:820px;margin-top:24px}
+.mk-case .mk-close>div{padding-top:64px}
+.mk-case .mk-close a{width:max-content;margin-top:36px;padding:10px 0;border-bottom:1px solid #181716;font-weight:700}
+.mk-case .mk-close a+a{margin-top:18px;border-bottom-color:#8d887f;font-weight:400}
+
+@media(max-width:900px){
+  .mk-case .mk-scope-head>p:last-child,.mk-case .mk-finding-copy>p:last-of-type,.mk-case .mk-frames-copy>p:last-child,.mk-case .mk-heat-copy>p:last-child,.mk-case .mk-dashboard-break>div>p:last-child,.mk-case .mk-weight>p,.mk-case .mk-model-head>p:last-child,.mk-case .mk-close>div{font-size:17px!important}
+  .mk-case .mk-frames,.mk-case .mk-dashboard-break,.mk-case .mk-robust,.mk-case .mk-model-head,.mk-case .mk-close{grid-template-columns:1fr}
+  .mk-case .mk-frame-row{grid-template-columns:110px 1fr 54px;gap:10px;margin:18px 0}
+  .mk-case .mk-frame-row>span{font-size:9px!important}
+  .mk-case .mk-frame-row b{font-size:18px!important}
+  .mk-case .mk-dashboard-stack span{grid-template-columns:1fr;min-height:58px;padding-left:0!important;font-size:19px}
+  .mk-case .mk-close>div{padding-top:0}
+}
