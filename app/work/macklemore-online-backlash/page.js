@@ -1,5 +1,6 @@
 "use client";
 import {motion} from "framer-motion";
+import "./polish.css";
 
 const platforms=[["YOUTUBE","300"],["REDDIT","297"],["FACEBOOK","220"],["INSTAGRAM","103"],["X","100"]];
 const frames=[["POLITICAL NEUTRALITY","69.7"],["ISRAEL / ANTISEMITISM","40.0"],["INSTITUTIONAL POWER","9.3"],["FREE EXPRESSION","8.7"],["COMMERCIAL / CONSUMER","7.7"],["ADVOCACY / SOLIDARITY","5.6"]];
