@@ -547,3 +547,10 @@ bottom:24px!important;
 .intro-editorial .intro-copy{margin-top:4vh}
 .bbs-home-image{aspect-ratio:16/10}
 }
+
+
+/* Final homepage image treatment */
+.intro-image img{filter:saturate(.58) contrast(1.02);object-position:center 52%}
+.marketing-visual{grid-template-columns:1fr!important;grid-template-rows:auto auto auto!important;gap:16px!important}
+.marketing-brand{width:100%;aspect-ratio:16/9!important}
+.marketing-bridge{grid-column:1!important}
