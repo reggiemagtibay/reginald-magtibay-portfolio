@@ -61,7 +61,7 @@ export default function Home(){return <main>
 </div>
 <div className="marketing-visual">
 <motion.div className="marketing-brand samsung-panel" initial={{opacity:0,y:22}} whileInView={{opacity:1,y:0}} viewport={{once:true}}>
-<img className="marketing-image samsung-image" src="https://images.samsung.com/is/image/samsung/assets/global/galaxy-z-fold6/images/galaxy-z-fold6-features-kv.jpg" alt="Samsung foldable smartphone campaign visual"/>
+<img className="marketing-image samsung-image" src="https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&w=1800&q=92" alt="Samsung foldable smartphone campaign visual"/>
 <div className="marketing-brand-label"><small>REGIONAL CAMPAIGN DELIVERY</small><strong>SAMSUNG APAC</strong><span>DIGITAL · SOCIAL · LOCALISATION</span></div>
 </motion.div>
 <motion.div className="marketing-brand stb-panel" initial={{opacity:0,y:22}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{delay:.12}}>
