@@ -49,3 +49,20 @@
 .mk-case .mk-frame-row{grid-template-columns:105px 1fr 48px}
 .mk-case .mk-dashboard-stack span{font-size:11px}
 }
+/* Targeted evidence and comparison fixes */
+.mk-case .mk-scope{grid-template-columns:minmax(480px,1.05fr) minmax(0,1.35fr);gap:3.5vw;align-items:end}
+.mk-case .mk-scope h2{font-size:clamp(48px,4.5vw,72px);max-width:650px}
+.mk-case .mk-platforms{width:100%;align-self:end}
+.mk-case .mk-platforms div{padding-left:18px;padding-right:18px}
+.mk-case .mk-contrast{grid-template-columns:minmax(0,1fr) 64px minmax(0,1fr)}
+.mk-case .mk-contrast article{min-height:390px;padding:32px 30px}
+.mk-case .mk-contrast strong{font-size:clamp(62px,5.2vw,88px);line-height:.78;margin:38px 0 18px;white-space:nowrap}
+.mk-case .mk-contrast span{display:block;position:static;font-size:10px;line-height:1.2;letter-spacing:.14em;margin:0 0 34px}
+.mk-case .mk-contrast h3{margin:auto 0 14px}
+.mk-case .mk-not-equal{padding:0;justify-content:center;font-size:42px}
+@media(max-width:900px){
+.mk-case .mk-scope{grid-template-columns:1fr;gap:5vh}
+.mk-case .mk-contrast{grid-template-columns:1fr}
+.mk-case .mk-contrast strong{font-size:clamp(68px,20vw,96px)}
+.mk-case .mk-not-equal{padding:14px;transform:rotate(90deg)}
+}
