@@ -61,11 +61,11 @@ export default function Home(){return <main>
 </div>
 <div className="marketing-visual">
 <motion.div className="marketing-brand samsung-panel" initial={{opacity:0,y:22}} whileInView={{opacity:1,y:0}} viewport={{once:true}}>
-<div className="marketing-image samsung-image"></div>
+<img className="marketing-image samsung-image" src="/images/samsung-foldable.webp" alt="Samsung foldable smartphone campaign visual"/>
 <div className="marketing-brand-label"><small>REGIONAL CAMPAIGN DELIVERY</small><strong>SAMSUNG APAC</strong><span>DIGITAL · SOCIAL · LOCALISATION</span></div>
 </motion.div>
 <motion.div className="marketing-brand stb-panel" initial={{opacity:0,y:22}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{delay:.12}}>
-<div className="marketing-image stb-image"></div>
+<img className="marketing-image stb-image" src="/images/jewel-changi.webp" alt="Jewel Changi Airport campaign visual for Singapore tourism"/>
 <div className="marketing-brand-label"><small>GLOBAL CAMPAIGN DELIVERY</small><strong>SINGAPORE TOURISM BOARD</strong><span>WEB · EDM · MULTI-MARKET</span></div>
 </motion.div>
 <div className="marketing-bridge"><small>THE COMMON THREAD</small><p>Turning campaign strategy into coordinated digital delivery across markets.</p></div>
