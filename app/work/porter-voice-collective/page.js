@@ -1,6 +1,5 @@
 "use client";
 
-export const metadata = {"title":"The Porter Voice Collective — Marketing analytics","description":"Cross-platform marketing analytics for The Porter Voice Collective, consolidating Instagram, Facebook and LinkedIn performance data in Power BI."};
 import {motion} from "framer-motion";
 export default function PorterVoiceCollective(){return <main>
 <header className="nav"><a className="brand" href="/">REGGIE.</a><nav><a href="/#work">WORK</a><a href="/#about">ABOUT</a><a href="/#contact">CONTACT</a></nav></header>
