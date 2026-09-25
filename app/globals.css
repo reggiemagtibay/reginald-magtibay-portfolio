@@ -624,3 +624,27 @@ bottom:24px!important;
 .project.bbs.bbs-image-led{padding-top:6.5vh!important;padding-bottom:6.5vh!important}
 .about-editorial .about-disciplines span{padding-left:2.5vw;padding-right:1.5vw}
 }
+
+
+/* Be BiteSmart case-study refinement */
+.bbs-case-photo{position:relative;margin:0;width:100%;height:clamp(360px,54vw,760px);overflow:hidden;background:#d8d2c6}
+.bbs-case-photo img{width:100%;height:100%;display:block;object-fit:cover;object-position:center 62%;filter:saturate(.78) contrast(1.02)}
+.bbs-case-photo:after{content:"";position:absolute;inset:65% 0 0;background:linear-gradient(transparent,rgba(0,0,0,.42));pointer-events:none}
+.bbs-case-photo figcaption{position:absolute;z-index:2;left:4vw;right:4vw;bottom:24px;color:#fff;font-size:9px;font-weight:700;letter-spacing:.15em;display:flex;justify-content:space-between;gap:24px}
+.shift-grid>div:first-child p{font-size:clamp(26px,3vw,48px);opacity:.62;max-width:620px}
+.shift-grid>div:last-child{border-top-width:2px}
+.shift-grid>div:last-child small{font-size:11px}
+.shift-grid>div:last-child p{font-size:clamp(38px,4.7vw,72px);line-height:.96;max-width:720px}
+.shift-grid .arrow{font-size:52px}
+.stage-track span{font-size:18px}
+.stage-track strong{font-size:12px;line-height:1.25;letter-spacing:.035em}
+.govern-flow{gap:18px;margin:56px 0}
+.govern-flow span{padding:15px 17px;font-size:10px;letter-spacing:.14em}
+.govern-flow i{font-size:17px}
+@media(max-width:850px){
+.bbs-case-photo{height:62vh;min-height:440px}
+.bbs-case-photo figcaption{flex-direction:column;gap:6px;bottom:18px}
+.shift-grid>div:first-child p,.shift-grid>div:last-child p{font-size:clamp(30px,9vw,48px)}
+.stage-track span{font-size:16px}.stage-track strong{font-size:11px}
+.govern-flow{gap:10px}.govern-flow span{padding:11px 10px;font-size:8px}
+}
