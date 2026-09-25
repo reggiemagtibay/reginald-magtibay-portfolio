@@ -685,3 +685,10 @@ bottom:24px!important;
 .pvc2-transformation>.section-label{margin-bottom:3.5vh!important}
 .pvc2-transform-grid{min-height:300px!important;align-items:center!important}
 }
+
+
+/* Porter findings — editorial claim hierarchy */
+.pvc2-find-head{display:block!important}
+.pvc2-find-head .section-label{margin:0 0 24px}
+.pvc2-find-head h2{font-family:Georgia,serif!important;font-size:clamp(40px,4.4vw,68px)!important;font-weight:400!important;line-height:.96!important;letter-spacing:-.045em!important;text-align:left!important;max-width:760px;margin:0 0 48px!important}
+@media(max-width:900px){.pvc2-find-head h2{font-size:clamp(38px,10vw,58px)!important;margin-bottom:34px!important}}
