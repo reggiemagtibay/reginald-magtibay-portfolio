@@ -1,6 +1,5 @@
 "use client";
 
-export const metadata = {"title":"Anthropomorphism and diversity in virtual humans","description":"Published research examining how anthropomorphism, social presence and information quality shape Gen Z consumers’ trust, attitudes and purchase intentions."};
 import {motion} from "framer-motion";
 export default function VirtualHumans(){return <main>
 <header className="nav"><a className="brand" href="/">REGGIE.</a><nav><a href="/#work">WORK</a><a href="/#about">ABOUT</a><a href="/#contact">CONTACT</a></nav></header>
