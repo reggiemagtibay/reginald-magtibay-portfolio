@@ -1,4 +1,6 @@
 "use client";
+
+export const metadata = {"title":"Digital marketing across Asia Pacific","description":"Regional digital marketing work across Asia Pacific, including campaign delivery, localisation and digital execution for Samsung APAC and Singapore Tourism Board."};
 import {motion} from "framer-motion";
 
 export default function DigitalMarketing(){return <main>
