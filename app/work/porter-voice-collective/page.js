@@ -10,7 +10,7 @@ export default function PorterVoiceCollective(){return <main>
 
 <section className="pvc2-context">
 <div><p className="section-label">THE CONTEXT</p><h2>Stories from<br/>the trails.<br/>Signals from<br/>the data.</h2><p>The Porter Voice Collective shares the experiences of mountain tourism workers, including porters and guides from Nepal’s Himalayan trails, Peru’s Camino Inca and Tanzania’s Kilimanjaro.</p><p>My work brings performance data from its main social channels into a consolidated reporting system, making it easier to compare content performance, audience response and engagement patterns across platforms.</p></div>
-<figure><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1100&q=86" alt="Trekking landscape"/><figcaption>STORIES / PEOPLE / PLACE</figcaption></figure>
+<figure><img src="https://images.unsplash.com/photo-1660194207310-4c9c9b2c2b53?auto=format&fit=crop&w=1400&q=88" alt="Person trekking on a mountain trail in Nepal"/><figcaption>STORIES / PEOPLE / PLACE</figcaption></figure>
 <blockquote>Human stories first.<br/>Data helps explain<br/>how they travel.</blockquote>
 </section>
 
