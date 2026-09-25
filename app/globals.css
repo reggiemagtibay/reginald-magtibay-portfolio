@@ -606,3 +606,11 @@ bottom:24px!important;
 .bbs-image-led{grid-template-columns:1fr;gap:5vh}
 .bbs-feature-image{aspect-ratio:16/10}
 }
+
+
+/* Be BiteSmart — force image-led desktop composition */
+@media(min-width:851px){
+.project.bbs.bbs-image-led{display:grid!important;grid-template-columns:minmax(320px,38%) minmax(0,62%)!important;gap:4vw!important;align-items:center!important}
+.project.bbs.bbs-image-led .bbs-feature-image{grid-column:2!important;grid-row:1!important;width:100%!important;max-width:none!important;aspect-ratio:16/10!important;min-height:0!important;margin:0!important;align-self:center!important}
+.project.bbs.bbs-image-led .project-copy{grid-column:1!important;grid-row:1!important;width:100%!important;max-width:560px!important}
+}
