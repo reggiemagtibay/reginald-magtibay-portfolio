@@ -593,3 +593,16 @@ bottom:24px!important;
 /* Manifesto spacing refinement */
 .intro-manifesto>.section-label{margin-bottom:3vh}
 @media(max-width:850px){.intro-manifesto>.section-label{margin-bottom:4vh}}
+
+
+/* Be BiteSmart — image-led homepage card */
+.bbs-image-led{grid-template-columns:minmax(360px,.72fr) minmax(0,1.28fr);gap:6vw;align-items:center;padding-top:10vh;padding-bottom:10vh}
+.bbs-image-led .project-copy{align-self:center;max-width:620px}
+.bbs-image-led .project-copy>p:not(.section-label){max-width:540px}
+.bbs-image-led .tags{max-width:520px}
+.bbs-feature-image{margin:0;width:100%;aspect-ratio:4/3;min-height:0;align-self:center}
+.bbs-feature-image img{object-position:center 44%}
+@media(max-width:850px){
+.bbs-image-led{grid-template-columns:1fr;gap:5vh}
+.bbs-feature-image{aspect-ratio:16/10}
+}
