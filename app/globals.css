@@ -677,3 +677,11 @@ bottom:24px!important;
 .pvc2-transform-grid{grid-template-columns:1fr;gap:36px;min-height:0}.pvc2-transform-arrow{text-align:left;transform:rotate(90deg);width:max-content;margin-left:8px}
 .pvc2-before p{font-size:clamp(30px,8vw,46px)}.pvc2-after h2{font-size:clamp(54px,13vw,82px)}
 }
+
+
+/* Porter transformation spacing correction */
+@media(min-width:901px){
+.pvc2-transformation{padding-top:6vh!important;padding-bottom:7vh!important}
+.pvc2-transformation>.section-label{margin-bottom:3.5vh!important}
+.pvc2-transform-grid{min-height:300px!important;align-items:center!important}
+}
