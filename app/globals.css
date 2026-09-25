@@ -659,3 +659,21 @@ bottom:24px!important;
 .pvc2-close{grid-template-columns:1fr 1fr;gap:5vw;padding-top:8vh;padding-bottom:8vh}
 .pvc2-close figure{height:520px}
 }
+
+
+/* Porter reporting system — editorial transformation */
+.pvc2-transformation{padding:9vh 4vw 10vh;border-bottom:1px solid var(--line);overflow:hidden}
+.pvc2-transformation>.section-label{margin:0 0 7vh}
+.pvc2-transform-grid{display:grid;grid-template-columns:minmax(260px,.72fr) 90px minmax(480px,1.28fr);gap:3vw;align-items:center;min-height:420px}
+.pvc2-transform-grid small{display:block;font-size:10px;letter-spacing:.17em;font-weight:800;margin-bottom:28px}
+.pvc2-before{align-self:center;color:#6f6b63}
+.pvc2-before p{font-family:Georgia,serif;font-size:clamp(31px,3.25vw,52px);line-height:1.02;letter-spacing:-.035em;margin:0;max-width:620px}
+.pvc2-transform-arrow{font-family:Georgia,serif;font-size:clamp(46px,5vw,76px);font-weight:400;text-align:center;line-height:1}
+.pvc2-after{align-self:center}
+.pvc2-after h2{font-family:Georgia,serif;font-size:clamp(58px,6.7vw,108px);font-weight:400;line-height:.88;letter-spacing:-.06em;margin:0 0 28px;max-width:900px}
+.pvc2-after p{font-size:15px;line-height:1.5;max-width:520px;margin:0}
+@media(max-width:900px){
+.pvc2-transformation{padding-top:8vh;padding-bottom:8vh}.pvc2-transformation>.section-label{margin-bottom:5vh}
+.pvc2-transform-grid{grid-template-columns:1fr;gap:36px;min-height:0}.pvc2-transform-arrow{text-align:left;transform:rotate(90deg);width:max-content;margin-left:8px}
+.pvc2-before p{font-size:clamp(30px,8vw,46px)}.pvc2-after h2{font-size:clamp(54px,13vw,82px)}
+}
