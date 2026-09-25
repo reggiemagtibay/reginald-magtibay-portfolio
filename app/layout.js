@@ -9,6 +9,9 @@ export const metadata = {
   description: "Portfolio of Reginald Magtibay — digital strategy, marketing analytics and research.",
   authors: [{ name: "Reginald Magtibay" }],
   creator: "Reginald Magtibay",
+  icons: {
+    icon: "/icon.svg",
+  },
   openGraph: {
     type: "website",
     siteName: "REGGIE.",
