@@ -589,3 +589,7 @@ bottom:24px!important;
 .bbs .journey div{font-size:12px;gap:5px}
 @media(max-width:1100px){.bbs-visual{grid-template-columns:1fr}.bbs-home-image{grid-column:1;aspect-ratio:16/9;min-height:0}.bbs .strategy-map{grid-column:1;border-left:0;border-top:1px solid var(--ink);padding:26px 0 0}}
 @media(max-width:850px){.bbs{grid-template-columns:1fr}.bbs-home-image{aspect-ratio:16/10}}
+
+/* Manifesto spacing refinement */
+.intro-manifesto>.section-label{margin-bottom:3vh}
+@media(max-width:850px){.intro-manifesto>.section-label{margin-bottom:4vh}}
