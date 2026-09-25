@@ -648,3 +648,14 @@ bottom:24px!important;
 .stage-track span{font-size:16px}.stage-track strong{font-size:11px}
 .govern-flow{gap:10px}.govern-flow span{padding:11px 10px;font-size:8px}
 }
+
+
+/* Porter case-study final refinement */
+@media(min-width:901px){
+.pvc2-shift{padding-top:6vh!important;padding-bottom:6vh!important}
+.pvc2-shift .shift-grid{margin-top:42px;grid-template-columns:.82fr 70px 1.18fr;gap:28px}
+.pvc2-shift .shift-grid>div:first-child p{font-size:clamp(25px,2.7vw,43px);opacity:.58}
+.pvc2-shift .shift-grid>div:last-child p{font-size:clamp(40px,4.5vw,70px);line-height:.96}
+.pvc2-close{grid-template-columns:1fr 1fr;gap:5vw;padding-top:8vh;padding-bottom:8vh}
+.pvc2-close figure{height:520px}
+}
