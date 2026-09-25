@@ -10,7 +10,7 @@ export default function PorterVoiceCollective(){return <main>
 
 <section className="pvc2-context">
 <div><p className="section-label">THE CONTEXT</p><h2>Stories from<br/>the trails.<br/>Signals from<br/>the data.</h2><p>The Porter Voice Collective shares the experiences of mountain tourism workers, including porters and guides from Nepal’s Himalayan trails, Peru’s Camino Inca and Tanzania’s Kilimanjaro.</p><p>My work brings performance data from its main social channels into a consolidated reporting system, making it easier to compare content performance, audience response and engagement patterns across platforms.</p></div>
-<figure><img src="https://images.unsplash.com/photo-1660194207310-4c9c9b2c2b53?auto=format&fit=crop&w=1400&q=88" alt="Person trekking on a mountain trail in Nepal"/><figcaption>STORIES / PEOPLE / PLACE</figcaption></figure>
+<figure><img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1400&q=88" alt="Mountain trekking route in Nepal"/><figcaption>STORIES / PEOPLE / PLACE</figcaption></figure>
 <blockquote>Human stories first.<br/>Data helps explain<br/>how they travel.</blockquote>
 </section>
 
@@ -25,7 +25,7 @@ export default function PorterVoiceCollective(){return <main>
 <div><p className="section-label">FROM NUMBERS TO MEANING</p><h2>Performance reporting is useful when it helps explain the story behind the number.</h2><p>The analysis moves beyond headline reach to compare content, engagement and audience response, helping identify what connected and what may be worth testing again.</p></div>
 </section>
 
-<section className="case-shift pvc2-shift"><p className="section-label">THE REPORTING SYSTEM</p><div className="shift-grid"><div><small>BEFORE</small><p>Separate platform metrics and isolated performance signals.</p></div><div className="arrow">→</div><div><small>AFTER</small><p>A consolidated Power BI view built for comparison and interpretation.</p></div></div></section>
+<section className="pvc2-transformation"><p className="section-label">THE REPORTING SYSTEM</p><div className="pvc2-transform-grid"><div className="pvc2-before"><small>BEFORE</small><p>Separate platform metrics<br/>and isolated performance signals.</p></div><div className="pvc2-transform-arrow" aria-hidden="true">→</div><div className="pvc2-after"><small>AFTER</small><h2>One consolidated<br/>Power BI view.</h2><p>Built for comparison, interpretation and clearer decision-making.</p></div></div></section>
 
 <section className="pvc2-close"><div><p className="section-label">THE QUESTION BEHIND THE DASHBOARD</p><h2>Which stories and messages are connecting with people?</h2><p>The purpose of the reporting is not simply to count reach or engagement. It is to identify patterns that can help The Porter Voice Collective understand which stories and messages are resonating with audiences and how digital communications can better support its advocacy for workforce equity in tourism.</p><a href="/">← BACK TO SELECTED WORK</a></div><figure><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=88" alt="Mountain landscape at sunset"/><figcaption>WORKFORCE EQUITY / TOURISM</figcaption></figure></section>
 </main>}
