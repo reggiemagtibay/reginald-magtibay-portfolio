@@ -709,3 +709,18 @@ bottom:24px!important;
 .vh-method-tags{margin-top:22px!important}
 .vh-result-grid small{font-size:10px!important;letter-spacing:.14em!important;font-weight:700!important}
 }
+
+
+/* Accessibility */
+a:focus-visible, button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}
