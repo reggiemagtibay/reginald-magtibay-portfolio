@@ -7,9 +7,9 @@ const dimensions = [
   "Audience perspective", "Related entities", "Reputation impact", "Risk / opportunity"
 ];
 
-const cover="https://images.pexels.com/photos/7120424/pexels-photo-7120424.jpeg?auto=compress&cs=tinysrgb&w=1800";
+const cover="/images/ai-intelligence/monitor-cover-v2.webp";
 const mediaWall="https://images.pexels.com/photos/13578524/pexels-photo-13578524.jpeg?auto=compress&cs=tinysrgb&w=1800";
-const projected="https://images.pexels.com/photos/9783351/pexels-photo-9783351.jpeg?auto=compress&cs=tinysrgb&w=1800";
+const projected="https://images.pexels.com/photos/18327489/pexels-photo-18327489.jpeg?auto=compress&cs=tinysrgb&w=1800";
 
 export default function AIIntelligenceMonitor(){return <main>
 <header className="nav"><a className="brand" href="/">REGGIE.</a><nav><a href="/#work">WORK</a><a href="/#about">ABOUT</a><a href="/#contact">CONTACT</a></nav></header>
