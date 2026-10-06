@@ -7,7 +7,7 @@ const dimensions = [
   "Audience perspective", "Related entities", "Reputation impact", "Risk / opportunity"
 ];
 
-const cover="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1800&q=88";
+const cover="https://images.pexels.com/photos/3816395/pexels-photo-3816395.jpeg?auto=compress&cs=tinysrgb&w=1800";
 const mediaWall="https://images.pexels.com/photos/13578524/pexels-photo-13578524.jpeg?auto=compress&cs=tinysrgb&w=1800";
 const projected="https://images.pexels.com/photos/18327489/pexels-photo-18327489.jpeg?auto=compress&cs=tinysrgb&w=1800";
 
