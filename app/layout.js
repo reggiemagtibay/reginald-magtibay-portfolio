@@ -1,4 +1,5 @@
 import "./globals.css";
+import "./ai-monitor.css";
 
 export const metadata = {
   metadataBase: new URL("https://reginald-magtibay-portfolio.pages.dev"),
