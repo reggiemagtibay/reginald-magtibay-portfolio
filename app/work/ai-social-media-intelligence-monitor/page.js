@@ -7,7 +7,7 @@ const dimensions = [
   "Audience perspective", "Related entities", "Reputation impact", "Risk / opportunity"
 ];
 
-const cover="/images/ai-intelligence/media-wall-hero.webp";
+const cover="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1800&q=88";
 const mediaWall="https://images.pexels.com/photos/13578524/pexels-photo-13578524.jpeg?auto=compress&cs=tinysrgb&w=1800";
 const projected="https://images.pexels.com/photos/18327489/pexels-photo-18327489.jpeg?auto=compress&cs=tinysrgb&w=1800";
 
@@ -25,7 +25,7 @@ export default function AIIntelligenceMonitor(){return <main>
 
 <section className="aim-process"><p className="section-label">THE SYSTEM</p><div className="aim-process-strip"><span>LISTEN</span><i>→</i><span>COLLECT</span><i>→</i><span>FILTER</span><i>→</i><span>ANALYZE</span><i>→</i><span>STRUCTURE</span></div><div className="aim-source-grid"><figure><img src={mediaWall} alt="Wall of digital media imagery"/><figcaption>MULTI-SOURCE MONITORING</figcaption></figure><div><small>INPUT SOURCES</small><h2>Google News<br/>Bluesky<br/>YouTube</h2><p>Incoming mentions are normalized into a common structure, filtered by the chosen lookback period, deduplicated and volume-controlled before AI analysis.</p></div></div></section>
 
-<section className="aim-workflow"><div className="aim-workflow-head"><p className="section-label">THE ACTUAL AUTOMATION</p><h2>Built to move from search to structured intelligence automatically.</h2><p>The workflow dynamically builds search combinations, gathers mentions across three sources, standardizes incoming data and processes relevant mentions through an AI analysis loop.</p></div><div className="aim-video-frame"><video className="aim-workflow-video" autoPlay muted loop playsInline preload="metadata" poster="/images/ai-intelligence/monitor-cover-v2.webp"><source src="/video/n8n-intelligence-monitor-portfolio-20s.mp4" type="video/mp4"/></video><span>20-SECOND WORKFLOW / N8N</span></div></section>
+<section className="aim-workflow"><div className="aim-workflow-head"><p className="section-label">THE ACTUAL AUTOMATION</p><h2>Built to move from search to structured intelligence automatically.</h2><p>The workflow dynamically builds search combinations, gathers mentions across three sources, standardizes incoming data and processes relevant mentions through an AI analysis loop.</p></div><div className="aim-video-frame aim-video-placeholder"><div><small>N8N WORKFLOW</small><strong>LISTEN → COLLECT → FILTER → ANALYZE → STRUCTURE</strong><p>20-second workflow recording.</p></div><span>WORKFLOW VIDEO</span></div></section>
 
 <section className="aim-analysis"><figure><img src={projected} alt="Person with projected media fragments and text"/><figcaption>FROM MEDIA MENTION TO INTERPRETATION</figcaption></figure><div><p className="section-label">FROM MENTION TO INTELLIGENCE</p><h2>Sentiment is not the same as stance.</h2><p>A negative-sounding headline can still support the entity being discussed. The analysis therefore separates emotional tone from the position taken toward the monitored entity.</p><div className="aim-example"><small>RAW MENTION</small><p>“Nike shareholders reject climate proposal backed by Norway wealth fund”</p><div className="aim-example-grid"><span><b>TOPIC</b>Corporate Governance</span><span><b>SENTIMENT</b>Neutral</span><span><b>STANCE</b>Neutral</span><span><b>REPUTATION IMPACT</b>Negative</span><span><b>CLASSIFICATION</b>Risk</span></div></div></div></section>
 
