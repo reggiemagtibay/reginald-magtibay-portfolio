@@ -30,9 +30,19 @@ export default function Home(){return <main>
   <div className="pvc-question"><small>THE QUESTION</small><p>Which stories and messages are connecting with people?</p></div>
 </div>
 </article>
+<article className="project aim-home-card">
+<div className="aim-home-copy">
+<p className="section-label">04 / AI & AUTOMATION</p>
+<h2>AI Social &amp; Media Intelligence Monitor</h2>
+<p className="aim-home-lead">A multi-source monitoring system that turns media and social conversations into structured intelligence using n8n and AI.</p>
+<div className="tags"><span>N8N</span><span>GEMINI AI</span><span>SOCIAL LISTENING</span><span>MEDIA INTELLIGENCE</span></div>
+<a className="case-link" href="/work/ai-social-media-intelligence-monitor">VIEW PROJECT <b>↗</b></a>
+</div>
+<figure className="aim-home-image"><img src="https://images.pexels.com/photos/7120424/pexels-photo-7120424.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Person observing projected media"/><div className="aim-home-overlay"><small>LISTEN / COLLECT / FILTER / ANALYZE / STRUCTURE</small><strong>MULTI-SOURCE<br/>INTELLIGENCE</strong></div><figcaption>AI & AUTOMATION / SOCIAL + MEDIA LISTENING</figcaption></figure>
+</article>
 <article className="project research-card research-editorial">
 <div className="research-copy">
-<p className="section-label">04 / RESEARCH</p>
+<p className="section-label">05 / RESEARCH</p>
 <h2>Anthropomorphism and diversity in virtual humans</h2>
 <p className="research-lead">Published research into how virtual humans shape the trust, attitudes and purchase intentions of Gen Z consumers.</p>
 <p>The study used survey data from 258 participants and PLS-SEM to examine anthropomorphism, social presence, information quality, trust and attitudes.</p>
@@ -50,7 +60,7 @@ export default function Home(){return <main>
 </article>
 <article className="project marketing-card">
 <div className="marketing-copy">
-<p className="section-label">05 / DIGITAL MARKETING</p>
+<p className="section-label">06 / DIGITAL MARKETING</p>
 <h2>Marketing across markets, channels and audiences.</h2>
 <p>My digital marketing work has included regional campaigns, content, social media, websites, email and digital assets across multiple markets in Asia Pacific.</p>
 <p>For Samsung APAC, I supported regional digital marketing and campaign delivery, coordinating content, localisation, approvals and digital assets across markets.</p>
@@ -72,7 +82,7 @@ export default function Home(){return <main>
 </article>
 <article className="project mack-card">
 <div className="mack-copy">
-<p className="section-label">06 / INDEPENDENT INVESTIGATION</p>
+<p className="section-label">07 / INDEPENDENT INVESTIGATION</p>
 <h2>Macklemore, Palestine and the Limits of Online Backlash</h2>
 <p className="mack-subtitle">Beyond the noise, outrage and assumptions of a divided internet</p>
 <p>When Macklemore was removed from Ed Sheeran’s U.S. tour following his onstage support for Palestine, the reaction online was immediate and divided. I wanted to understand what that reaction actually represented and whether the loudest voices reflected broader audience opinion.</p>
@@ -92,5 +102,5 @@ export default function Home(){return <main>
 </figure>
 </div>
 </article></section>
-<section className="about about-editorial" id="about"><div className="about-heading"><p className="section-label">07 / ABOUT</p><h2>I'm Reggie.</h2></div><div className="about-body"><div className="about-copy"><p>I'm a digital strategist and marketing analyst with more than eight years of experience across digital marketing, project management, analytics and research.</p><p>My work has taken me across regional campaigns, digital strategy, performance analysis and academic research. I have an MSc in Digital Marketing from the University of Brighton, where my research into virtual humans and Gen Z consumer behaviour later developed into published research.</p><p>I'm particularly interested in how strategy, data and research can help us understand people, challenge assumptions and address issues that matter to society.</p></div><div className="about-disciplines"><span>STRATEGY</span><span>DATA</span><span>RESEARCH</span><span>DIGITAL CULTURE</span></div></div></section>
-<footer id="contact" className="editorial-footer"><p className="section-label">08 / CONTACT</p><h2>Have something<br/>worth exploring?</h2><a className="talk" href="mailto:reginald.magtibay@gmail.com">LET'S TALK ↗</a><div className="footer-links"><a href="mailto:reginald.magtibay@gmail.com">EMAIL</a><a href="https://www.linkedin.com/in/reginald-magtibay/" target="_blank" rel="noreferrer">LINKEDIN</a><a href="https://github.com/reggiemagtibay" target="_blank" rel="noreferrer">GITHUB</a><span>REGGIE. / 2026</span></div></footer></main>}
+<section className="about about-editorial" id="about"><div className="about-heading"><p className="section-label">08 / ABOUT</p><h2>I'm Reggie.</h2></div><div className="about-body"><div className="about-copy"><p>I'm a digital strategist and marketing analyst with more than eight years of experience across digital marketing, project management, analytics and research.</p><p>My work has taken me across regional campaigns, digital strategy, performance analysis and academic research. I have an MSc in Digital Marketing from the University of Brighton, where my research into virtual humans and Gen Z consumer behaviour later developed into published research.</p><p>I'm particularly interested in how strategy, data and research can help us understand people, challenge assumptions and address issues that matter to society.</p></div><div className="about-disciplines"><span>STRATEGY</span><span>DATA</span><span>RESEARCH</span><span>DIGITAL CULTURE</span></div></div></section>
+<footer id="contact" className="editorial-footer"><p className="section-label">09 / CONTACT</p><h2>Have something<br/>worth exploring?</h2><a className="talk" href="mailto:reginald.magtibay@gmail.com">LET'S TALK ↗</a><div className="footer-links"><a href="mailto:reginald.magtibay@gmail.com">EMAIL</a><a href="https://www.linkedin.com/in/reginald-magtibay/" target="_blank" rel="noreferrer">LINKEDIN</a><a href="https://github.com/reggiemagtibay" target="_blank" rel="noreferrer">GITHUB</a><span>REGGIE. / 2026</span></div></footer></main>}
