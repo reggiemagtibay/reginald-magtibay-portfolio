@@ -38,7 +38,7 @@ export default function Home(){return <main>
 <div className="tags"><span>N8N</span><span>GEMINI AI</span><span>SOCIAL LISTENING</span><span>MEDIA INTELLIGENCE</span></div>
 <a className="case-link" href="/work/ai-social-media-intelligence-monitor">VIEW PROJECT <b>↗</b></a>
 </div>
-<figure className="aim-home-image"><img src="/images/ai-intelligence/monitor-cover.webp" alt="Person observing projected media"/><div className="aim-home-overlay"><small>LISTEN / COLLECT / FILTER / ANALYZE / STRUCTURE</small><strong>MULTI-SOURCE<br/>INTELLIGENCE</strong></div><figcaption>AI & AUTOMATION / SOCIAL + MEDIA LISTENING</figcaption></figure>
+<figure className="aim-home-image"><img src="/images/ai-intelligence/monitor-cover-v2.webp" alt="Person observing projected media"/><div className="aim-home-overlay"><small>LISTEN / COLLECT / FILTER / ANALYZE / STRUCTURE</small><strong>MULTI-SOURCE<br/>INTELLIGENCE</strong></div><figcaption>AI & AUTOMATION / SOCIAL + MEDIA LISTENING</figcaption></figure>
 </article>
 <article className="project research-card research-editorial">
 <div className="research-copy">
