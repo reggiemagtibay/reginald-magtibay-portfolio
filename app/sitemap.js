@@ -6,6 +6,7 @@ export default function sitemap() {
     "",
     "/work/be-bitesmart",
     "/work/porter-voice-collective",
+    "/work/ai-social-media-intelligence-monitor",
     "/work/virtual-humans",
     "/work/digital-marketing",
     "/work/macklemore-online-backlash",
