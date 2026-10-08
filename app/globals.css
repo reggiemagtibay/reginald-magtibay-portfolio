@@ -724,3 +724,29 @@ a:focus-visible, button:focus-visible {
     transition-duration: .01ms !important;
   }
 }
+
+
+/* Homepage project typography system */
+.work .project p.home-project-lead,
+.work .project .pvc-lead,
+.work .project .research-lead,
+.work .project .aim-home-lead,
+.work .project .mack-subtitle{
+  font-family:Georgia,serif!important;
+  font-size:clamp(20px,1.8vw,28px)!important;
+  line-height:1.2!important;
+  letter-spacing:-.015em;
+  max-width:580px!important;
+}
+.work .project p.home-project-lead{margin:0 0 20px}
+.work .project .aim-home-lead{margin:0 0 20px}
+.work .project .mack-subtitle{font-style:italic;color:#c94b40}
+.work .project .project-copy>p:not(.section-label):not(.home-project-lead),
+.work .project .pvc-role,
+.work .project .research-copy>p:not(.section-label):not(.research-lead),
+.work .project .marketing-copy>p:not(.section-label):not(.home-project-lead),
+.work .project .mack-copy>p:not(.section-label):not(.mack-subtitle){
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:15px!important;
+  line-height:1.58!important;
+}
