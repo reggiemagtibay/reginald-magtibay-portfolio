@@ -174,3 +174,14 @@
     justify-self:start;
   }
 }
+
+/* Simplified product demo heading */
+.st-video-head{display:block}
+.st-video-head h2{max-width:1050px;margin:0}
+.st-video-note{margin:32px 0 0;font-size:9px;line-height:1;letter-spacing:.16em;font-weight:700;color:var(--muted)}
+.st-video-frame{margin-top:18px}
+@media(max-width:850px){
+  .st-video-head{display:block}
+  .st-video-note{margin-top:24px}
+  .st-video-frame{margin-top:16px}
+}
