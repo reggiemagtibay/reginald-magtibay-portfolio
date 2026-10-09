@@ -69,3 +69,43 @@
 
 @media(max-width:850px){.st-hero,.st-problem,.st-boundaries,.st-approach-head,.st-architecture,.st-experience,.st-privacy,.st-limitations,.st-video-head{grid-template-columns:1fr}.st-hero-copy{padding:10vh 4vw 5vh}.st-hero-image{min-height:600px}.st-principle-grid{grid-template-columns:1fr 1fr}.st-iteration-grid{grid-template-columns:1fr}.st-arrow{text-align:left;transform:rotate(90deg);width:max-content}.st-mode-strip{overflow:auto;justify-content:flex-start;white-space:nowrap}.st-experience-image{min-height:520px}.st-video-head{gap:20px}}
 @media(max-width:560px){.st-principle-grid{grid-template-columns:1fr}.st-hero h1{font-size:72px}.st-test-row{grid-template-columns:1fr;gap:8px}.st-hero-image{min-height:500px}}
+
+/* Second Thought visual QA — alignment and spacing */
+.st-hero{align-items:stretch}
+.st-hero-copy{padding-bottom:7vh}
+.st-hero-image{min-height:0;height:auto;align-self:stretch;border-bottom:0}
+.st-hero-image img{position:absolute;inset:0}
+.st-hero-image figcaption{bottom:28px}
+.st-problem,.st-boundaries,.st-privacy,.st-limitations{align-items:start}
+.st-problem>div:first-child,.st-boundaries>div:first-child{padding-right:2vw}
+.st-approach-head{align-items:start}
+.st-approach-head>div{padding-top:6px}
+.st-principle-grid article{display:flex;flex-direction:column}
+.st-principle-grid h3{margin-top:52px}
+.st-principle-grid p{margin-top:auto}
+.st-architecture{align-items:start}
+.st-architecture-copy,.st-workflow{align-self:center}
+.st-iteration>h2{margin-top:24px}
+.st-iteration-grid>div:not(.st-arrow){display:flex;flex-direction:column}
+.st-iteration-grid .st-status{margin-top:auto;width:max-content}
+.st-testing .st-section-head>p:last-child{max-width:760px;margin-top:26px}
+.st-test-row{min-height:58px}
+.st-experience{align-items:center}
+.st-experience>div{max-width:620px}
+.st-video-head{align-items:end}
+.st-video-head h2{max-width:760px}
+.st-boundaries>div:last-child p:first-child,.st-limitations>div p:first-child{margin-top:0}
+.st-privacy>div p{max-width:720px}
+.st-close .section-label{margin-bottom:0}
+
+@media(min-width:851px){
+  .st-hero{min-height:92vh}
+  .st-hero-copy,.st-hero-image{min-height:92vh}
+  .st-problem>div:first-child,.st-boundaries>div:first-child{position:sticky;top:110px}
+  .st-experience-image{min-height:600px}
+}
+@media(max-width:850px){
+  .st-hero-image{min-height:600px}
+  .st-hero-image img{position:absolute}
+  .st-problem>div:first-child,.st-boundaries>div:first-child{padding-right:0}
+}
