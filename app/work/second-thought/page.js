@@ -3,20 +3,27 @@
 import { motion } from "framer-motion";
 
 const principles = [
-  ["01", "Listen before solving", "Advice is not the default. The system follows the user's stated need, including when they simply want to vent or think out loud."],
-  ["02", "Challenge without arguing", "Facts, interpretations and unknowns are kept separate so the model can question assumptions without inventing reassuring alternatives."],
-  ["03", "Update with new evidence", "The advisor is instructed to revise its assessment when new information materially changes the situation instead of defending an earlier interpretation."],
-  ["04", "Support decisions, not dependence", "A dedicated classifier detects exclusivity or replacement language and triggers a warm boundary against replacing real-world relationships."],
+  ["01", "Listen before solving", "Advice is not the default. When someone wants to vent or think out loud, the conversation can simply stay with them rather than turning everything into a problem to solve."],
+  ["02", "Question assumptions without inventing answers", "Facts, interpretations and unknowns are kept separate. An unsupported negative assumption should not simply be replaced with an unsupported reassuring one."],
+  ["03", "Change perspective when the evidence changes", "New information can materially change a situation. The advisor is designed to reconsider earlier reasoning rather than defend its first interpretation."],
+  ["04", "Support reflection without encouraging dependency", "Second Thought can be useful for personal reflection while remaining clear that AI should complement, rather than replace, appropriate human relationships and support."],
 ];
 
 const tests = [
-  ["Venting", "Passed", "Stopped problem-solving when the user asked to complain."],
-  ["Reality check", "Passed", "Challenged unsupported conclusions while preserving uncertainty."],
-  ["Decision support", "Iterated", "Testing exposed repetitive caution; instructions were revised to respond to new evidence."],
-  ["Conversation prep", "Passed", "Produced a usable boundary-setting script without escalating conflict."],
-  ["Harm / retaliation", "Passed", "Refused harmful action and shifted to immediate safety when risk became credible."],
-  ["AI dependency", "Guardrail added", "Prompt-only handling was inconsistent, so a workflow-level dependency classifier was added."],
-  ["Natural exit", "Passed", "Allowed the conversation to end cleanly instead of manufacturing another question."],
+  ["Venting without unwanted advice", "Passed"],
+  ["Facts vs. assumptions", "Passed with known model limitation"],
+  ["Updating when new evidence appears", "Iterated"],
+  ["Decision support", "Iterated"],
+  ["Difficult-conversation preparation", "Passed"],
+  ["Pressure to take sides", "Passed"],
+  ["Self-blame and overgeneralization", "Passed"],
+  ["Harm and retaliation", "Passed"],
+  ["Immediate-risk response", "Passed"],
+  ["AI dependency / exclusivity", "Guardrail added and passed"],
+  ["Healthy AI use", "Passed"],
+  ["Session memory", "Passed"],
+  ["New-session isolation", "Passed"],
+  ["Natural conversation ending", "Passed"],
 ];
 
 export default function SecondThought() {
@@ -26,67 +33,71 @@ export default function SecondThought() {
     <section className="st-hero">
       <div className="st-hero-copy">
         <a className="back" href="/">← BACK TO WORK</a>
-        <p className="section-label">05 / AI PRODUCT & AUTOMATION</p>
+        <p className="section-label">05 / AI PRODUCT &amp; AUTOMATION</p>
         <h1>Second<br/>Thought</h1>
-        <p className="st-kicker">Conversational AI designed to help people think before they react.</p>
-        <p className="st-intro">A private thinking partner for adults who want to talk something through before deciding what to think, say or do.</p>
-        <div className="st-meta"><span>PRODUCT<b>Conversational AI</b></span><span>BUILD<b>n8n · Groq</b></span><span>STATUS<b>Working V1 prototype</b></span></div>
+        <p className="st-kicker">Think it through before acting on it.</p>
+        <p className="st-intro">A conversational AI thinking partner for adults who want to talk something through before deciding what to think, say or do.</p>
+        <div className="case-meta st-meta"><span>PRODUCT<b>Conversational AI</b></span><span>BUILD<b>n8n · Groq</b></span><span>FOCUS<b>Behavioral design · AI safety</b></span></div>
       </div>
-      <div className="st-hero-visual" aria-label="Second Thought product concept">
-        <div className="st-orbit st-orbit-one"></div><div className="st-orbit st-orbit-two"></div>
-        <div className="st-thought-card st-thought-a"><small>ASSUMPTION</small><p>“They didn't reply. Did I do something wrong?”</p></div>
-        <div className="st-thought-mark">2<span>nd</span></div>
-        <div className="st-thought-card st-thought-b"><small>SECOND THOUGHT</small><p>What is known, what is inferred, and what is still unknown?</p></div>
-        <span className="st-visual-caption">PAUSE / QUESTION / CLARIFY / DECIDE</span>
-      </div>
+      <figure className="st-hero-image"><img src="https://images.pexels.com/photos/30445680/pexels-photo-30445680.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Person standing still while people move around them"/><figcaption>PAUSE / QUESTION / CLARIFY / DECIDE</figcaption></figure>
     </section>
 
     <section className="st-problem">
-      <div><p className="section-label">THE PROBLEM</p><h2>People often ask AI for help when emotion is already shaping the story.</h2></div>
-      <div className="st-problem-copy"><p>A generic chatbot can easily become too agreeable, too reassuring or too eager to solve the problem. In personal conversations, that can reinforce assumptions instead of helping someone think more clearly.</p><p>Second Thought was designed around a different question: <strong>can conversational AI be useful without becoming an authority, a therapist or a substitute for human relationships?</strong></p></div>
+      <div><p className="section-label">THE CHALLENGE</p><h2>Helpful conversation can become unhelpful agreement.</h2></div>
+      <div className="st-problem-copy"><p>People often turn to conversational AI when they are uncertain, frustrated or emotionally caught up in a situation.</p><p>A conventional chatbot can easily become too agreeable, too reassuring or too eager to offer a solution. In personal conversations, that can reinforce assumptions rather than help someone examine them.</p><p>Second Thought explores a different role for conversational AI: <strong>a thinking partner that helps create clarity without positioning itself as an authority, therapist or replacement for human relationships.</strong></p></div>
     </section>
 
     <section className="st-approach">
       <p className="section-label">PRODUCT APPROACH</p>
-      <div className="st-approach-head"><h2>Useful conversation without the performance of being human.</h2><p>The experience is deliberately simple. The user talks naturally; the system infers whether they need listening, perspective, a reality check, decision support or help preparing a conversation.</p></div>
+      <div className="st-approach-head"><h2>The conversation follows the need, not a predefined script.</h2><div><p>Second Thought does not ask users to select a mode before talking. Instead, the conversation adapts to what the person appears to need in the moment.</p><p>It can listen without immediately trying to solve the problem, separate facts from interpretations, offer another plausible perspective, help weigh a decision, or prepare for a difficult conversation.</p><p>The aim is not to keep someone talking. <strong>A successful conversation may simply end when the person knows what they want to do next.</strong></p></div></div>
       <div className="st-mode-strip"><span>LISTEN</span><i>→</i><span>UNDERSTAND</span><i>→</i><span>REALITY CHECK</span><i>→</i><span>DECIDE</span><i>→</i><span>RETURN TO REAL LIFE</span></div>
     </section>
 
     <section className="st-principles">
       <div className="st-section-head"><p className="section-label">DESIGN PRINCIPLES</p><h2>Built around restraint, not engagement.</h2></div>
-      <div className="st-principle-grid">{principles.map(([n,t,d],i)=><motion.article key={t} initial={{opacity:0,y:18}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{delay:i*.06}}><small>{n}</small><h3>{t}</h3><p>{d}</p></motion.article>)}</div>
+      <div className="st-principle-grid">{principles.map(([n,t,d],i)=><motion.article key={t} initial={{opacity:0,y:18}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{delay:i*.05}}><small>{n}</small><h3>{t}</h3><p>{d}</p></motion.article>)}</div>
     </section>
 
     <section className="st-architecture">
-      <div className="st-architecture-copy"><p className="section-label">SOLUTION ARCHITECTURE</p><h2>One conversation flow, with a targeted guardrail where prompting was not enough.</h2><p>The main advisor handles the conversation and session memory. Before each response, a lightweight classifier checks specifically for language suggesting that AI should replace human relationships or become the user's only source of support.</p><p>That classifier was added after behavioral testing showed that a long system prompt alone did not reliably enforce the dependency boundary.</p><div className="tags"><span>N8N</span><span>GROQ</span><span>GPT-OSS 120B</span><span>SESSION MEMORY</span><span>DEPENDENCY CLASSIFIER</span></div></div>
-      <figure className="st-workflow"><img src="/images/second-thought-workflow.webp" alt="Second Thought n8n workflow showing chat entry, dependency classifier, advisor model and conversation memory"/><figcaption>SECOND THOUGHT / V1 N8N ARCHITECTURE</figcaption></figure>
+      <div className="st-architecture-copy"><p className="section-label">SOLUTION ARCHITECTURE</p><h2>Behavioral guardrails sit alongside the conversation, not only inside the prompt.</h2><p>Second Thought runs as an n8n conversational workflow using separate models for the main advisor and a targeted dependency check.</p><p>The main advisor manages the conversation, behavioral instructions and session context. A lightweight classifier independently checks for language suggesting that AI should replace human relationships or become someone's only source of support.</p><p>Session memory allows relevant details to carry through the current conversation while a new conversation begins without access to the previous session.</p><div className="tags"><span>N8N</span><span>GROQ</span><span>GPT-OSS</span><span>SESSION MEMORY</span><span>DEPENDENCY CLASSIFIER</span></div></div>
+      <figure className="st-workflow"><img src="/images/second-thought-workflow.png" alt="Second Thought n8n workflow showing chat entry, dependency classifier, advisor model and conversation memory"/><figcaption>SECOND THOUGHT / N8N ARCHITECTURE</figcaption></figure>
     </section>
 
     <section className="st-iteration">
       <p className="section-label">KEY DESIGN ITERATION</p>
-      <div className="st-iteration-grid"><div><small>EARLY APPROACH</small><h3>Prompt-only dependency handling</h3><p>The advisor was instructed not to encourage exclusivity or present itself as a replacement for human support.</p><span className="st-status st-status-mixed">INCONSISTENT</span></div><div className="st-arrow">→</div><div><small>V1 SOLUTION</small><h3>Dedicated dependency classifier</h3><p>A narrow Boolean classifier now detects explicit or strongly implied replacement language before the advisor responds.</p><span className="st-status">ENFORCEABLE</span></div></div>
-      <p className="st-iteration-note">The change illustrates the core product lesson: when a behavior matters enough, it should not depend on a model remembering one instruction inside a long prompt.</p>
+      <h2>When prompting was not enough.</h2>
+      <div className="st-iteration-grid"><div><small>EARLY APPROACH</small><h3>Prompt-only dependency handling</h3><p>The advisor was explicitly instructed not to encourage exclusivity or position itself as a replacement for human relationships.</p><span className="st-status st-status-mixed">INCONSISTENT</span></div><div className="st-arrow">→</div><div><small>SOLUTION</small><h3>Dedicated dependency classifier</h3><p>A narrow Boolean classifier was introduced before the main advisor to identify explicit or strongly implied replacement language. When triggered, the signal instructs the advisor to maintain a warm conversational tone while clearly rejecting the idea that AI should replace human connection.</p><span className="st-status">GUARDRAIL ADDED</span></div></div>
+      <blockquote>When a behavior matters enough, it should not depend on a model remembering one instruction inside a long prompt.</blockquote>
     </section>
 
     <section className="st-testing">
-      <div className="st-section-head"><p className="section-label">BEHAVIORAL TESTING</p><h2>The product was tested as a conversation, not just as a workflow.</h2><p>Independent scenarios were used to test listening, uncertainty, decision support, pressure to take sides, self-blame, harmful intent, dependency and natural conversation endings.</p></div>
-      <div className="st-test-list">{tests.map(([name,status,note])=><div className="st-test-row" key={name}><strong>{name}</strong><span>{status}</span><p>{note}</p></div>)}</div>
+      <div className="st-section-head"><p className="section-label">BEHAVIORAL TESTING</p><h2>Tested as a conversation, not just as a workflow.</h2><p>Independent scenarios were used to test how Second Thought behaved when the conversation changed direction, new evidence appeared or the user's needs conflicted with the model's tendency to advise.</p></div>
+      <div className="st-test-list">{tests.map(([name,status])=><div className="st-test-row" key={name}><strong>{name}</strong><span>{status}</span></div>)}</div>
     </section>
 
-    <section className="st-demo">
-      <div><p className="section-label">PRODUCT EXPERIENCE</p><h2>A deliberately quiet interface.</h2><p>The hosted V1 strips the experience back to the conversation itself: a restrained palette, clear message hierarchy and no visible mode selector. The interface does not ask the user to learn the system before using it.</p></div>
-      <div className="st-chat-mock">
-        <div className="st-chat-head"><strong>Second Thought</strong><span>A place to think things through before deciding what to think, say, or do.</span></div>
-        <div className="st-chat-body"><div className="st-bot">Hey. What's on your mind?</div><div className="st-user">My manager barely spoke to me today. Usually she's pretty chatty, so now I'm wondering if I've done something wrong.</div><div className="st-bot">That change is noticeable, but it doesn't tell you why it happened. Right now, you know she was quieter than usual; the reason is still unknown.</div></div>
-        <div className="st-chat-input">What's on your mind?<b>↑</b></div>
-      </div>
+    <section className="st-experience">
+      <figure className="st-experience-image"><img src="https://images.pexels.com/photos/31992012/pexels-photo-31992012.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Person sitting quietly in a reflective moment"/><figcaption>THE PRODUCT EXPERIENCE / QUIET BY DESIGN</figcaption></figure>
+      <div><p className="section-label">PRODUCT EXPERIENCE</p><h2>The interface stays out of the conversation.</h2><p>The interface deliberately avoids visible modes, dashboards or unnecessary controls. Users can simply start talking.</p><p>The visual system uses a restrained palette, clear message hierarchy and a focused conversation column so that the product feels closer to a private thinking space than a conventional support chatbot.</p></div>
+    </section>
+
+    <section className="st-video">
+      <div className="st-video-head"><p className="section-label">WATCH SECOND THOUGHT IN CONVERSATION</p><h2>From uncertainty to a clearer next step.</h2></div>
+      <div className="st-video-frame"><video controls playsInline preload="metadata"><source src="/video/second-thought-conversation.mp4" type="video/mp4"/></video></div>
     </section>
 
     <section className="st-boundaries">
-      <div><p className="section-label">BOUNDARIES & LIMITATIONS</p><h2>Designed to know what it should not become.</h2></div>
-      <div><p>Second Thought is for adults 18+ and is not professional or emergency support. V1 uses session-based memory rather than building a permanent psychological profile.</p><p>Model behavior is probabilistic, so behavioral QA remains necessary. The current hosted prototype also inherits interface constraints from n8n, including limited control over some shell elements.</p></div>
+      <div><p className="section-label">SAFETY &amp; BOUNDARIES</p><h2>Designed to know what it should not become.</h2></div>
+      <div><p>Second Thought is designed for adults 18+ and is not positioned as professional or emergency support.</p><p>When credible immediate harm appears, normal conversational behavior gives way to safety: the system discourages harmful action, prioritizes creating physical distance from the situation and encourages appropriate real-world support.</p><p>The product also avoids language that encourages emotional exclusivity or presents AI as a substitute for human relationships.</p></div>
     </section>
 
-    <section className="st-close"><p className="section-label">THE VALUE</p><h2>The goal is not a longer conversation.<br/>It is a clearer next thought.</h2><p>Second Thought explores how conversational AI can support reflection while resisting sycophancy, overreach and unnecessary dependency.</p><a href="/">← BACK TO SELECTED WORK</a></section>
+    <section className="st-privacy">
+      <p className="section-label">PRIVACY BY DESIGN</p><div><h2>Remember the conversation, not the person.</h2><p>Second Thought uses session-based memory. Relevant details remain available during the current conversation, but starting a new conversation creates a fresh session. No permanent psychological profile is created.</p></div>
+    </section>
+
+    <section className="st-limitations">
+      <p className="section-label">LIMITATIONS</p><div><p>Second Thought is not a clinical, therapeutic or crisis-support product.</p><p>Model behavior is probabilistic, and behavioral instructions cannot guarantee identical responses across every scenario. Testing also identified areas where the underlying model can become overly cautious or introduce plausible explanations that are not supported by evidence.</p><p>The current interface uses n8n Hosted Chat, which limits control over some elements of the surrounding product experience. These constraints are documented rather than hidden because they define where further development and evaluation would be required.</p></div>
+    </section>
+
+    <section className="st-close"><p className="section-label">THE VALUE</p><h2>The goal is not a longer conversation.<br/>It is a clearer next thought.</h2><p>Second Thought explores a more restrained role for conversational AI: helping people pause, examine what they know, consider another perspective and decide what comes next.</p><a href="/">← BACK TO SELECTED WORK</a></section>
   </main>
 }
