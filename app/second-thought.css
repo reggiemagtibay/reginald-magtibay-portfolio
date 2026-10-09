@@ -193,3 +193,10 @@
   .st-video-note{grid-column:2;margin:0 0 12px;align-self:end;text-align:left}
   .st-video-frame{margin-top:44px}
 }
+
+/* Final demo heading treatment */
+@media(min-width:851px){
+  .st-video-head{display:block}
+  .st-video-head h2{max-width:1250px}
+  .st-video-frame{margin-top:48px}
+}
