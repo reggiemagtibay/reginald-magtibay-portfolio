@@ -125,3 +125,18 @@
   .st-architecture .tags{margin-top:38px}
   .st-workflow{width:100%;max-width:980px;justify-self:end}
 }
+
+/* Standardize key-iteration comparison columns */
+@media(min-width:851px){
+  .st-iteration-grid{align-items:stretch}
+  .st-iteration-grid>div:not(.st-arrow){
+    min-height:360px;
+    display:grid;
+    grid-template-rows:auto 120px 1fr auto;
+    align-content:start;
+  }
+  .st-iteration-grid h3{margin:42px 0 20px;align-self:start}
+  .st-iteration-grid p{margin:0;align-self:start}
+  .st-iteration-grid .st-status{margin-top:24px;align-self:end}
+  .st-arrow{align-self:center}
+}
