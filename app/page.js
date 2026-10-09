@@ -44,11 +44,11 @@ export default function Home(){return <main>
 <div className="st-home-copy">
 <p className="section-label">05 / AI PRODUCT &amp; AUTOMATION</p>
 <h2>Second Thought</h2>
-<p className="home-project-lead">A conversational AI thinking partner designed to help adults pause, question assumptions and make clearer decisions without encouraging dependency.</p>
+<p className="home-project-lead">A conversational AI thinking partner designed to help people pause, question assumptions and make clearer decisions before deciding what to think, say or do.</p>
 <div className="tags"><span>CONVERSATIONAL AI</span><span>N8N</span><span>BEHAVIORAL DESIGN</span><span>AI SAFETY</span></div>
 <a className="case-link" href="/work/second-thought">VIEW PRODUCT CASE STUDY <b>↗</b></a>
 </div>
-<div className="st-home-visual"><strong>2<span>nd</span></strong><small>PAUSE / QUESTION / CLARIFY / DECIDE</small></div>
+<figure className="st-home-visual"><img src="https://images.pexels.com/photos/13347811/pexels-photo-13347811.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Black-and-white reflection of a person in glass"/><figcaption>SECOND THOUGHT / PAUSE · QUESTION · CLARIFY · DECIDE</figcaption></figure>
 </article>
 <article className="project research-card research-editorial">
 <div className="research-copy">
