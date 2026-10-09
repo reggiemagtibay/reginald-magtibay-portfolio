@@ -140,3 +140,25 @@
   .st-iteration-grid .st-status{margin-top:24px;align-self:end}
   .st-arrow{align-self:center}
 }
+
+/* Standardize video section heading alignment */
+.st-video-head{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:6vw;
+  align-items:start;
+}
+.st-video-head .section-label{
+  margin:18px 0 0;
+  align-self:start;
+}
+.st-video-head h2{
+  margin:0;
+  max-width:760px;
+}
+.st-video-frame{margin-top:52px}
+@media(max-width:850px){
+  .st-video-head{grid-template-columns:1fr;gap:24px}
+  .st-video-head .section-label{margin:0}
+  .st-video-frame{margin-top:40px}
+}
