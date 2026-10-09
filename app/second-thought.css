@@ -109,3 +109,10 @@
   .st-hero-image img{position:absolute}
   .st-problem>div:first-child,.st-boundaries>div:first-child{padding-right:0}
 }
+
+/* Hero QA correction */
+.st-meta{grid-template-columns:repeat(3,minmax(0,1fr))}
+.st-meta span:last-child b{white-space:nowrap}
+.st-hero-image{margin:0 0 24px 0;align-self:stretch}
+@media(max-width:1100px){.st-meta span:last-child b{white-space:normal}}
+@media(max-width:850px){.st-hero-image{margin-bottom:24px}}
