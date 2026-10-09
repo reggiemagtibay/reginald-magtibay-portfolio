@@ -81,7 +81,8 @@ export default function SecondThought() {
     </section>
 
     <section className="st-video">
-      <div className="st-video-head"><p className="section-label">WATCH SECOND THOUGHT IN CONVERSATION</p><h2>From uncertainty to a clearer next step.</h2></div>
+      <div className="st-video-head"><h2>From uncertainty to a clearer next step.</h2></div>
+      <p className="st-video-note">PRODUCT CONVERSATION DEMO · 3:12</p>
       <div className="st-video-frame"><video controls playsInline preload="metadata"><source src="/video/second-thought-conversation.mp4" type="video/mp4"/></video></div>
     </section>
 
