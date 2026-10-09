@@ -162,3 +162,15 @@
   .st-video-head .section-label{margin:0}
   .st-video-frame{margin-top:40px}
 }
+
+/* Video heading: compact label column, headline starts earlier */
+@media(min-width:851px){
+  .st-video-head{
+    grid-template-columns:minmax(280px,.55fr) minmax(0,1.45fr);
+    gap:4vw;
+  }
+  .st-video-head h2{
+    max-width:900px;
+    justify-self:start;
+  }
+}
