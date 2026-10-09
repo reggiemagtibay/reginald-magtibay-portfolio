@@ -185,3 +185,11 @@
   .st-video-note{margin-top:24px}
   .st-video-frame{margin-top:16px}
 }
+
+/* Product demo: use horizontal space intentionally */
+@media(min-width:851px){
+  .st-video-head{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(260px,.75fr);gap:6vw;align-items:end}
+  .st-video-head h2{grid-column:1;max-width:1150px}
+  .st-video-note{grid-column:2;margin:0 0 12px;align-self:end;text-align:left}
+  .st-video-frame{margin-top:44px}
+}
