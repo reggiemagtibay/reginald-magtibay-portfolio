@@ -41,6 +41,10 @@ export default function Home(){return <main>
 </div>
 <figure className="aim-home-image"><img src="/images/ai-intelligence/monitor-cover-v2.webp" alt="Person observing projected media"/><div className="aim-home-overlay"><small>LISTEN / COLLECT / FILTER / ANALYZE / STRUCTURE</small><strong>MULTI-SOURCE<br/>INTELLIGENCE</strong></div><figcaption>AI & AUTOMATION / SOCIAL + MEDIA LISTENING</figcaption></figure>
 </article>
+<article className="project ns-home-card">
+<div className="ns-home-copy"><p className="section-label">05 / AI &amp; AUTOMATION</p><h2>Northstar Digital Studio</h2><h3>AI Lead Qualification &amp; CRM Automation</h3><p className="home-project-lead">An AI-powered marketing automation system connecting website inquiries, intelligent lead qualification, and HubSpot CRM, with human oversight built into the follow-up process.</p><div className="tags"><span>N8N</span><span>GROQ AI</span><span>HUBSPOT</span><span>CRM AUTOMATION</span></div><a className="case-link" href="/work/northstar-digital-studio">VIEW CASE STUDY <b>↗</b></a></div>
+<figure className="ns-home-image"><img src="/images/northstar/northstar-home-cover.png" alt="Geometric architecture representing connected business systems"/><figcaption>NORTHSTAR / LEAD QUALIFICATION + CRM AUTOMATION</figcaption></figure>
+</article>
 {SHOW_SECOND_THOUGHT && <article className="project st-home-card">
 <div className="st-home-copy">
 <p className="section-label">05 / AI PRODUCT &amp; AUTOMATION</p>
