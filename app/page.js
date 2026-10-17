@@ -36,13 +36,14 @@ export default function Home(){return <main>
 <p className="section-label">04 / AI & AUTOMATION</p>
 <h2>AI Social &amp; Media Intelligence Monitor</h2>
 <p className="aim-home-lead">A multi-source monitoring system that turns media and social conversations into structured intelligence using n8n and AI.</p>
+<p className="aim-home-context">I built a workflow to collect, filter and analyze conversations across Google News, Bluesky and YouTube, transforming scattered mentions into structured marketing intelligence.</p>
 <div className="tags"><span>N8N</span><span>GEMINI AI</span><span>SOCIAL LISTENING</span><span>MEDIA INTELLIGENCE</span></div>
 <a className="case-link" href="/work/ai-social-media-intelligence-monitor">VIEW PROJECT <b>↗</b></a>
 </div>
 <figure className="aim-home-image"><img src="/images/ai-intelligence/monitor-cover-v2.webp" alt="Person observing projected media"/><div className="aim-home-overlay"><small>LISTEN / COLLECT / FILTER / ANALYZE / STRUCTURE</small><strong>MULTI-SOURCE<br/>INTELLIGENCE</strong></div><figcaption>AI & AUTOMATION / SOCIAL + MEDIA LISTENING</figcaption></figure>
 </article>
 <article className="project ns-home-card">
-<div className="ns-home-copy"><p className="section-label">05 / AI &amp; AUTOMATION</p><h2>Northstar Digital Studio</h2><h3>AI Lead Qualification &amp; CRM Automation</h3><p className="home-project-lead">An AI-powered marketing automation system connecting website inquiries, intelligent lead qualification, and HubSpot CRM, with human oversight built into the follow-up process.</p><div className="tags"><span>N8N</span><span>GROQ AI</span><span>HUBSPOT</span><span>CRM AUTOMATION</span></div><a className="case-link" href="/work/northstar-digital-studio">VIEW CASE STUDY <b>↗</b></a></div>
+<div className="ns-home-copy"><p className="section-label">05 / AI &amp; AUTOMATION</p><h2>Northstar Digital Studio</h2><h3>AI Lead Qualification &amp; CRM Automation</h3><p className="home-project-lead">An AI-powered marketing automation system connecting website inquiries, intelligent lead qualification, and HubSpot CRM, with human oversight built into the follow-up process.</p><p className="ns-home-context">I designed two connected n8n workflows to evaluate incoming leads, record AI recommendations in HubSpot and create follow-up tasks only after human approval.</p><div className="tags"><span>N8N</span><span>GROQ AI</span><span>HUBSPOT</span><span>CRM AUTOMATION</span></div><a className="case-link" href="/work/northstar-digital-studio">VIEW CASE STUDY <b>↗</b></a></div>
 <figure className="ns-home-image"><img src="/images/northstar/northstar-home-cover.png" alt="Geometric architecture representing connected business systems"/><figcaption>NORTHSTAR / LEAD QUALIFICATION + CRM AUTOMATION</figcaption></figure>
 </article>
 {SHOW_SECOND_THOUGHT && <article className="project st-home-card">
