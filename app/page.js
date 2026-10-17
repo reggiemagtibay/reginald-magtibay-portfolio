@@ -1,6 +1,7 @@
 "use client";
 import {motion} from "framer-motion";
 const stages=[["01","Audience","Parent-first"],["02","Experience","From resources to a learning journey"],["03","Architecture","Organised around real parent questions"],["04","Content","A connected, reusable content system"],["05","Governance","Trusted, traceable and sustainable"]];
+const SHOW_SECOND_THOUGHT = false;
 const journey=["Pregnancy","Newborn","Crawling","Walking","Toddler","Preschool"];
 export default function Home(){return <main>
 <header className="nav"><a className="brand" href="#top">REGGIE.</a><nav><a href="#work">WORK</a><a href="#about">ABOUT</a><a href="#contact">CONTACT</a></nav></header>
@@ -40,7 +41,7 @@ export default function Home(){return <main>
 </div>
 <figure className="aim-home-image"><img src="/images/ai-intelligence/monitor-cover-v2.webp" alt="Person observing projected media"/><div className="aim-home-overlay"><small>LISTEN / COLLECT / FILTER / ANALYZE / STRUCTURE</small><strong>MULTI-SOURCE<br/>INTELLIGENCE</strong></div><figcaption>AI & AUTOMATION / SOCIAL + MEDIA LISTENING</figcaption></figure>
 </article>
-<article className="project st-home-card">
+{SHOW_SECOND_THOUGHT && <article className="project st-home-card">
 <div className="st-home-copy">
 <p className="section-label">05 / AI PRODUCT &amp; AUTOMATION</p>
 <h2>Second Thought</h2>
@@ -49,7 +50,7 @@ export default function Home(){return <main>
 <a className="case-link" href="/work/second-thought">VIEW PRODUCT CASE STUDY <b>↗</b></a>
 </div>
 <figure className="st-home-visual"><img src="https://images.pexels.com/photos/13347811/pexels-photo-13347811.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Black-and-white reflection of a person in glass"/><figcaption>SECOND THOUGHT / PAUSE · QUESTION · CLARIFY · DECIDE</figcaption></figure>
-</article>
+</article>}
 <article className="project research-card research-editorial">
 <div className="research-copy">
 <p className="section-label">06 / RESEARCH</p>
