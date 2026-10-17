@@ -26,3 +26,18 @@
 .ns-tools .ns-tool-grid article h3{line-height:1.08}
 @media(max-width:900px){.ns-hero{grid-template-columns:1fr;padding:48px 6vw 65px;gap:35px}.ns-hero .back{margin-bottom:45px}.ns-hero-art{margin-top:0;height:50vh;min-height:340px}.ns-pad{padding:70px 6vw}.ns-website-showcase-head{flex-direction:column;align-items:flex-start}}
 @media(max-width:560px){.ns-hero h1{font-size:clamp(55px,13vw,80px)}.ns-hero-art{height:360px;min-height:0}.ns-hero .back{margin-bottom:32px}.ns-meta{grid-template-columns:1fr 1fr}.ns-website-showcase{margin-top:42px}}
+
+/* Final spacing and line-break refinements */
+.ns-hero{padding-bottom:34px}
+.ns-overview{padding-top:60px}
+.ns-page h2{max-width:none;line-height:1.02;letter-spacing:-.045em;text-wrap:balance}
+.ns-overview h2{max-width:700px}
+.ns-challenge h2{max-width:660px}
+.ns-solution h2{max-width:850px}
+.ns-process h2{max-width:1050px}
+.ns-oversight h2{max-width:750px}
+.ns-evidence h2{max-width:1000px}
+.ns-evidence-intro{max-width:none;white-space:nowrap;font-size:clamp(14px,1.25vw,17px);line-height:1.55}
+.ns-validation h2{max-width:900px}
+.ns-close h2{max-width:1150px}
+@media(max-width:900px){.ns-hero{padding-bottom:32px}.ns-overview{padding-top:50px}.ns-evidence-intro{white-space:normal;font-size:17px}}
